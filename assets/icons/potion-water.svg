@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="54" height="78" viewBox="0 0 27 39"
+     shape-rendering="crispEdges"
+     style="--pf-potion-water-1: #d16c48;--pf-potion-water-2: #a74625;--pf-potion-water-3: #d1e2f4;--pf-potion-water-4: #caada3;--pf-potion-water-5: #b1cde9;--pf-potion-water-6: #953616;--pf-potion-water-7: #5c8dc0;--pf-potion-water-8: #375cc4;--pf-potion-water-9: #213776;--pf-potion-water-a: #15244c;--pf-potion-water-b: #2b4797;--pf-potion-water-c: #253d82;--pf-potion-water-d: #203572;--pf-potion-water-e: #89abce;--pf-potion-water-f: #243c7f;">
+  <style>
+    :root { --pf-potion-water-1: #d16c48; --pf-potion-water-2: #a74625; --pf-potion-water-3: #d1e2f4; --pf-potion-water-4: #caada3; --pf-potion-water-5: #b1cde9; --pf-potion-water-6: #953616; --pf-potion-water-7: #5c8dc0; --pf-potion-water-8: #375cc4; --pf-potion-water-9: #213776; --pf-potion-water-a: #15244c; --pf-potion-water-b: #2b4797; --pf-potion-water-c: #253d82; --pf-potion-water-d: #203572; --pf-potion-water-e: #89abce; --pf-potion-water-f: #243c7f; }
+    .pf-potion-water-1 { fill: var(--pf-potion-water-1); }
+    .pf-potion-water-2 { fill: var(--pf-potion-water-2); }
+    .pf-potion-water-3 { fill: var(--pf-potion-water-3); }
+    .pf-potion-water-4 { fill: var(--pf-potion-water-4); }
+    .pf-potion-water-5 { fill: var(--pf-potion-water-5); }
+    .pf-potion-water-6 { fill: var(--pf-potion-water-6); }
+    .pf-potion-water-7 { fill: var(--pf-potion-water-7); }
+    .pf-potion-water-8 { fill: var(--pf-potion-water-8); }
+    .pf-potion-water-9 { fill: var(--pf-potion-water-9); }
+    .pf-potion-water-a { fill: var(--pf-potion-water-a); }
+    .pf-potion-water-b { fill: var(--pf-potion-water-b); }
+    .pf-potion-water-c { fill: var(--pf-potion-water-c); }
+    .pf-potion-water-d { fill: var(--pf-potion-water-d); }
+    .pf-potion-water-e { fill: var(--pf-potion-water-e); }
+    .pf-potion-water-f { fill: var(--pf-potion-water-f); }
+  </style>
+
+  <!-- potion-water: 9x13 cells of 3px. Copy the <g id="i-potion-water"> below into a banner <defs>. -->
+  <g id="i-potion-water">
+    <rect x="9" y="0" width="3" height="3" class="pf-potion-water-1"/>
+    <rect x="12" y="0" width="3" height="3" class="pf-potion-water-1"/>
+    <rect x="15" y="0" width="3" height="3" class="pf-potion-water-2"/>
+    <rect x="6" y="3" width="3" height="3" class="pf-potion-water-3"/>
+    <rect x="9" y="3" width="3" height="3" class="pf-potion-water-4"/>
+    <rect x="12" y="3" width="3" height="3" class="pf-potion-water-4"/>
+    <rect x="15" y="3" width="3" height="3" class="pf-potion-water-4"/>
+    <rect x="18" y="3" width="3" height="3" class="pf-potion-water-5"/>
+    <rect x="6" y="6" width="3" height="3" class="pf-potion-water-5"/>
+    <rect x="9" y="6" width="3" height="3" class="pf-potion-water-2"/>
+    <rect x="12" y="6" width="3" height="3" class="pf-potion-water-2"/>
+    <rect x="15" y="6" width="3" height="3" class="pf-potion-water-6"/>
+    <rect x="18" y="6" width="3" height="3" class="pf-potion-water-5"/>
+    <rect x="9" y="9" width="3" height="3" class="pf-potion-water-5"/>
+    <rect x="15" y="9" width="3" height="3" class="pf-potion-water-7"/>
+    <rect x="9" y="12" width="3" height="3" class="pf-potion-water-5"/>
+    <rect x="15" y="12" width="3" height="3" class="pf-potion-water-7"/>
+    <rect x="6" y="15" width="3" height="3" class="pf-potion-water-3"/>
+    <rect x="18" y="15" width="3" height="3" class="pf-potion-water-7"/>
+    <rect x="3" y="18" width="3" height="3" class="pf-potion-water-3"/>
+    <rect x="6" y="18" width="3" height="3" class="pf-potion-water-8"/>
+    <rect x="9" y="18" width="3" height="3" class="pf-potion-water-5"/>
+    <rect x="12" y="18" width="3" height="3" class="pf-potion-water-9"/>
+    <rect x="15" y="18" width="3" height="3" class="pf-potion-water-9"/>
+    <rect x="18" y="18" width="3" height="3" class="pf-potion-water-a"/>
+    <rect x="21" y="18" width="3" height="3" class="pf-potion-water-7"/>
+    <rect x="0" y="21" width="3" height="3" class="pf-potion-water-3"/>
+    <rect x="3" y="21" width="3" height="3" class="pf-potion-water-a"/>
+    <rect x="6" y="21" width="3" height="3" class="pf-potion-water-5"/>
+    <rect x="9" y="21" width="3" height="3" class="pf-potion-water-8"/>
+    <rect x="12" y="21" width="3" height="3" class="pf-potion-water-b"/>
+    <rect x="15" y="21" width="3" height="3" class="pf-potion-water-b"/>
+    <rect x="18" y="21" width="3" height="3" class="pf-potion-water-9"/>
+    <rect x="21" y="21" width="3" height="3" class="pf-potion-water-a"/>
+    <rect x="24" y="21" width="3" height="3" class="pf-potion-water-7"/>
+    <rect x="0" y="24" width="3" height="3" class="pf-potion-water-3"/>
+    <rect x="3" y="24" width="3" height="3" class="pf-potion-water-9"/>
+    <rect x="6" y="24" width="3" height="3" class="pf-potion-water-5"/>
+    <rect x="9" y="24" width="3" height="3" class="pf-potion-water-8"/>
+    <rect x="12" y="24" width="3" height="3" class="pf-potion-water-c"/>
+    <rect x="15" y="24" width="3" height="3" class="pf-potion-water-b"/>
+    <rect x="18" y="24" width="3" height="3" class="pf-potion-water-b"/>
+    <rect x="21" y="24" width="3" height="3" class="pf-potion-water-9"/>
+    <rect x="24" y="24" width="3" height="3" class="pf-potion-water-7"/>
+    <rect x="0" y="27" width="3" height="3" class="pf-potion-water-5"/>
+    <rect x="3" y="27" width="3" height="3" class="pf-potion-water-9"/>
+    <rect x="6" y="27" width="3" height="3" class="pf-potion-water-b"/>
+    <rect x="9" y="27" width="3" height="3" class="pf-potion-water-b"/>
+    <rect x="12" y="27" width="3" height="3" class="pf-potion-water-d"/>
+    <rect x="15" y="27" width="3" height="3" class="pf-potion-water-b"/>
+    <rect x="18" y="27" width="3" height="3" class="pf-potion-water-e"/>
+    <rect x="21" y="27" width="3" height="3" class="pf-potion-water-f"/>
+    <rect x="24" y="27" width="3" height="3" class="pf-potion-water-7"/>
+    <rect x="0" y="30" width="3" height="3" class="pf-potion-water-7"/>
+    <rect x="3" y="30" width="3" height="3" class="pf-potion-water-a"/>
+    <rect x="6" y="30" width="3" height="3" class="pf-potion-water-9"/>
+    <rect x="9" y="30" width="3" height="3" class="pf-potion-water-b"/>
+    <rect x="12" y="30" width="3" height="3" class="pf-potion-water-f"/>
+    <rect x="15" y="30" width="3" height="3" class="pf-potion-water-9"/>
+    <rect x="18" y="30" width="3" height="3" class="pf-potion-water-e"/>
+    <rect x="21" y="30" width="3" height="3" class="pf-potion-water-a"/>
+    <rect x="24" y="30" width="3" height="3" class="pf-potion-water-7"/>
+    <rect x="3" y="33" width="3" height="3" class="pf-potion-water-7"/>
+    <rect x="6" y="33" width="3" height="3" class="pf-potion-water-a"/>
+    <rect x="9" y="33" width="3" height="3" class="pf-potion-water-9"/>
+    <rect x="12" y="33" width="3" height="3" class="pf-potion-water-9"/>
+    <rect x="15" y="33" width="3" height="3" class="pf-potion-water-e"/>
+    <rect x="18" y="33" width="3" height="3" class="pf-potion-water-a"/>
+    <rect x="21" y="33" width="3" height="3" class="pf-potion-water-7"/>
+    <rect x="6" y="36" width="3" height="3" class="pf-potion-water-7"/>
+    <rect x="9" y="36" width="3" height="3" class="pf-potion-water-7"/>
+    <rect x="12" y="36" width="3" height="3" class="pf-potion-water-7"/>
+    <rect x="15" y="36" width="3" height="3" class="pf-potion-water-7"/>
+    <rect x="18" y="36" width="3" height="3" class="pf-potion-water-7"/>
+  </g>
+</svg>

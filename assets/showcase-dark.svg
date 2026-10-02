@@ -1,0 +1,248 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="258" viewBox="0 0 800 258"
+     style="--pf-duration: 12s;--pf-frame-outer: #1c130a;--pf-frame-mid: #3a2a14;--pf-frame-hi: #7a4a23;--pf-frame-inner: #1c130a;--pf-canvas: #2b1d10;--pf-ink: #f4e4bc;--pf-ink-muted: #a06832;--pf-tile-face: #4a3520;--pf-tile-edge-hi: #7a4a23;--pf-tile-edge-lo: #1c130a;--pf-accent-red: #e06a50;--pf-accent-green: #7fc867;--pf-accent-green-lo: #5a9040;--pf-accent-yellow: #f0cc80;--pf-accent-gold-lo: #c8a04e;--pf-accent-blue: #6aa8dc;--pf-accent-pink: #f091b5;--pf-accent-pink-hi: #ffc8dc;--pf-steel: #cfd8e0;--pf-steel-hi: #ffffff;--pf-cloud: #f0eee0;--pf-dandelion-1: #fce94e;--pf-dandelion-2: #fbd338;--pf-dandelion-3: #ee9b25;--pf-dandelion-4: #bb6922;--pf-dandelion-5: #177b04;--pf-dandelion-6: #498d27;--pf-dandelion-7: #54a92c;">
+  <style>
+    :root { --pf-duration: 12s; --pf-frame-outer: #1c130a; --pf-frame-mid: #3a2a14; --pf-frame-hi: #7a4a23; --pf-frame-inner: #1c130a; --pf-canvas: #2b1d10; --pf-ink: #f4e4bc; --pf-ink-muted: #a06832; --pf-tile-face: #4a3520; --pf-tile-edge-hi: #7a4a23; --pf-tile-edge-lo: #1c130a; --pf-accent-red: #e06a50; --pf-accent-green: #7fc867; --pf-accent-green-lo: #5a9040; --pf-accent-yellow: #f0cc80; --pf-accent-gold-lo: #c8a04e; --pf-accent-blue: #6aa8dc; --pf-accent-pink: #f091b5; --pf-accent-pink-hi: #ffc8dc; --pf-steel: #cfd8e0; --pf-steel-hi: #ffffff; --pf-cloud: #f0eee0; --pf-dandelion-1: #fce94e; --pf-dandelion-2: #fbd338; --pf-dandelion-3: #ee9b25; --pf-dandelion-4: #bb6922; --pf-dandelion-5: #177b04; --pf-dandelion-6: #498d27; --pf-dandelion-7: #54a92c; }
+
+    .pf-frame-outer { fill: var(--pf-frame-outer); }
+    .pf-frame-mid { fill: var(--pf-frame-mid); }
+    .pf-frame-hi { fill: var(--pf-frame-hi); }
+    .pf-frame-inner { fill: var(--pf-frame-inner); }
+    .pf-canvas { fill: var(--pf-canvas); }
+    .pf-ink { fill: var(--pf-ink); }
+    .pf-ink-muted { fill: var(--pf-ink-muted); }
+    .pf-tile-face { fill: var(--pf-tile-face); }
+    .pf-tile-edge-hi { fill: var(--pf-tile-edge-hi); }
+    .pf-tile-edge-lo { fill: var(--pf-tile-edge-lo); }
+    .pf-accent-red { fill: var(--pf-accent-red); }
+    .pf-accent-green { fill: var(--pf-accent-green); }
+    .pf-accent-green-lo { fill: var(--pf-accent-green-lo); }
+    .pf-accent-yellow { fill: var(--pf-accent-yellow); }
+    .pf-accent-gold-lo { fill: var(--pf-accent-gold-lo); }
+    .pf-accent-blue { fill: var(--pf-accent-blue); }
+    .pf-accent-pink { fill: var(--pf-accent-pink); }
+    .pf-accent-pink-hi { fill: var(--pf-accent-pink-hi); }
+    .pf-steel { fill: var(--pf-steel); }
+    .pf-steel-hi { fill: var(--pf-steel-hi); }
+    .pf-cloud { fill: var(--pf-cloud); }
+    .pf-dandelion-1 { fill: var(--pf-dandelion-1); }
+    .pf-dandelion-2 { fill: var(--pf-dandelion-2); }
+    .pf-dandelion-3 { fill: var(--pf-dandelion-3); }
+    .pf-dandelion-4 { fill: var(--pf-dandelion-4); }
+    .pf-dandelion-5 { fill: var(--pf-dandelion-5); }
+    .pf-dandelion-6 { fill: var(--pf-dandelion-6); }
+    .pf-dandelion-7 { fill: var(--pf-dandelion-7); }
+
+    .pf-tile { animation: pf-pop var(--pf-duration) ease-out infinite; }
+    .pf-icon { animation: none; }
+    .pf-underline { animation: pf-wipe-cycle 7.000s ease-in-out infinite; transform-origin: 36px center; }
+    .pf-step-0 { animation: pf-step-0 7.000s steps(1, end) infinite; }
+    .pf-step-1 { animation: pf-step-1 7.000s steps(1, end) infinite; }
+    .pf-step-2 { animation: pf-step-2 7.000s steps(1, end) infinite; }
+    .pf-step-3 { animation: pf-step-3 7.000s steps(1, end) infinite; }
+    .pf-step-4 { animation: pf-step-4 7.000s steps(1, end) infinite; }
+
+    @keyframes pf-pop {
+      0%, 6%   { opacity: 0; transform: translateY(-4px); }
+      18%, 88% { opacity: 1; transform: translateY(0); }
+      100%     { opacity: 0; transform: translateY(0); }
+    }
+    @keyframes pf-wipe-cycle {
+      0% { transform: scaleX(0); }
+      14.2857% { transform: scaleX(1); }
+      85.7143% { transform: scaleX(1); }
+      100% { transform: scaleX(0); }
+    }
+    @keyframes pf-step-0 {
+      0%, 0.0000% { opacity: 0; }
+      0.0010%, 97.1429% { opacity: 1; }
+      97.1439%, 100% { opacity: 0; }
+    }
+    @keyframes pf-step-1 {
+      0%, 2.8571% { opacity: 0; }
+      2.8581%, 94.2857% { opacity: 1; }
+      94.2867%, 100% { opacity: 0; }
+    }
+    @keyframes pf-step-2 {
+      0%, 5.7143% { opacity: 0; }
+      5.7153%, 91.4286% { opacity: 1; }
+      91.4296%, 100% { opacity: 0; }
+    }
+    @keyframes pf-step-3 {
+      0%, 8.5714% { opacity: 0; }
+      8.5724%, 88.5714% { opacity: 1; }
+      88.5724%, 100% { opacity: 0; }
+    }
+    @keyframes pf-step-4 {
+      0%, 11.4286% { opacity: 0; }
+      11.4296%, 85.7143% { opacity: 1; }
+      85.7153%, 100% { opacity: 0; }
+    }
+  </style>
+
+    <rect class="pf-frame-outer" x="0" y="0" width="800" height="258"/>
+    <rect class="pf-frame-mid" x="2" y="2" width="796" height="254"/>
+    <rect class="pf-frame-hi" x="2" y="2" width="796" height="1"/>
+    <rect class="pf-frame-hi" x="2" y="2" width="1" height="254"/>
+    <rect class="pf-frame-inner" x="6" y="6" width="788" height="246"/>
+    <rect class="pf-canvas" x="8" y="8" width="784" height="242"/>
+
+    <g class="pf-ink">
+      <g class="pf-step-0">
+          <rect x="36" y="32" width="4" height="4"/>
+          <rect x="40" y="32" width="4" height="4"/>
+          <rect x="44" y="32" width="4" height="4"/>
+          <rect x="48" y="32" width="4" height="4"/>
+          <rect x="52" y="32" width="4" height="4"/>
+          <rect x="36" y="36" width="4" height="4"/>
+          <rect x="36" y="40" width="4" height="4"/>
+          <rect x="36" y="44" width="4" height="4"/>
+          <rect x="40" y="44" width="4" height="4"/>
+          <rect x="44" y="44" width="4" height="4"/>
+          <rect x="48" y="44" width="4" height="4"/>
+          <rect x="36" y="48" width="4" height="4"/>
+          <rect x="36" y="52" width="4" height="4"/>
+          <rect x="36" y="56" width="4" height="4"/>
+      </g>
+      <g class="pf-step-1">
+          <rect x="64" y="32" width="4" height="4"/>
+          <rect x="68" y="32" width="4" height="4"/>
+          <rect x="72" y="32" width="4" height="4"/>
+          <rect x="60" y="36" width="4" height="4"/>
+          <rect x="76" y="36" width="4" height="4"/>
+          <rect x="60" y="40" width="4" height="4"/>
+          <rect x="76" y="40" width="4" height="4"/>
+          <rect x="60" y="44" width="4" height="4"/>
+          <rect x="76" y="44" width="4" height="4"/>
+          <rect x="60" y="48" width="4" height="4"/>
+          <rect x="76" y="48" width="4" height="4"/>
+          <rect x="60" y="52" width="4" height="4"/>
+          <rect x="76" y="52" width="4" height="4"/>
+          <rect x="64" y="56" width="4" height="4"/>
+          <rect x="68" y="56" width="4" height="4"/>
+          <rect x="72" y="56" width="4" height="4"/>
+      </g>
+      <g class="pf-step-2">
+          <rect x="88" y="32" width="4" height="4"/>
+          <rect x="92" y="32" width="4" height="4"/>
+          <rect x="96" y="32" width="4" height="4"/>
+          <rect x="84" y="36" width="4" height="4"/>
+          <rect x="100" y="36" width="4" height="4"/>
+          <rect x="84" y="40" width="4" height="4"/>
+          <rect x="84" y="44" width="4" height="4"/>
+          <rect x="84" y="48" width="4" height="4"/>
+          <rect x="84" y="52" width="4" height="4"/>
+          <rect x="100" y="52" width="4" height="4"/>
+          <rect x="88" y="56" width="4" height="4"/>
+          <rect x="92" y="56" width="4" height="4"/>
+          <rect x="96" y="56" width="4" height="4"/>
+      </g>
+      <g class="pf-step-3">
+          <rect x="108" y="32" width="4" height="4"/>
+          <rect x="124" y="32" width="4" height="4"/>
+          <rect x="108" y="36" width="4" height="4"/>
+          <rect x="124" y="36" width="4" height="4"/>
+          <rect x="108" y="40" width="4" height="4"/>
+          <rect x="124" y="40" width="4" height="4"/>
+          <rect x="108" y="44" width="4" height="4"/>
+          <rect x="124" y="44" width="4" height="4"/>
+          <rect x="108" y="48" width="4" height="4"/>
+          <rect x="124" y="48" width="4" height="4"/>
+          <rect x="108" y="52" width="4" height="4"/>
+          <rect x="124" y="52" width="4" height="4"/>
+          <rect x="112" y="56" width="4" height="4"/>
+          <rect x="116" y="56" width="4" height="4"/>
+          <rect x="120" y="56" width="4" height="4"/>
+      </g>
+      <g class="pf-step-4">
+          <rect x="136" y="32" width="4" height="4"/>
+          <rect x="140" y="32" width="4" height="4"/>
+          <rect x="144" y="32" width="4" height="4"/>
+          <rect x="132" y="36" width="4" height="4"/>
+          <rect x="148" y="36" width="4" height="4"/>
+          <rect x="132" y="40" width="4" height="4"/>
+          <rect x="136" y="44" width="4" height="4"/>
+          <rect x="140" y="44" width="4" height="4"/>
+          <rect x="144" y="44" width="4" height="4"/>
+          <rect x="148" y="48" width="4" height="4"/>
+          <rect x="132" y="52" width="4" height="4"/>
+          <rect x="148" y="52" width="4" height="4"/>
+          <rect x="136" y="56" width="4" height="4"/>
+          <rect x="140" y="56" width="4" height="4"/>
+          <rect x="144" y="56" width="4" height="4"/>
+      </g>
+    </g>
+
+    <g transform="translate(748,30) scale(1)">
+      <g class="pf-icon">
+        <rect x="8" y="0" width="4" height="4" class="pf-accent-yellow"/>
+        <rect x="0" y="4" width="4" height="4" class="pf-accent-yellow"/>
+        <rect x="4" y="4" width="4" height="4" class="pf-accent-yellow"/>
+        <rect x="8" y="4" width="4" height="4" class="pf-accent-yellow"/>
+        <rect x="12" y="4" width="4" height="4" class="pf-accent-yellow"/>
+        <rect x="16" y="4" width="4" height="4" class="pf-accent-yellow"/>
+        <rect x="4" y="8" width="4" height="4" class="pf-accent-yellow"/>
+        <rect x="8" y="8" width="4" height="4" class="pf-accent-yellow"/>
+        <rect x="12" y="8" width="4" height="4" class="pf-accent-yellow"/>
+        <rect x="4" y="12" width="4" height="4" class="pf-accent-yellow"/>
+        <rect x="12" y="12" width="4" height="4" class="pf-accent-yellow"/>
+        <rect x="0" y="16" width="4" height="4" class="pf-accent-yellow"/>
+        <rect x="16" y="16" width="4" height="4" class="pf-accent-yellow"/>
+      </g>
+    </g>
+
+    <g transform="translate(700,18) scale(2)">
+      <g class="pf-icon">
+        <rect x="6" y="0" width="3" height="3" class="pf-dandelion-1"/>
+        <rect x="9" y="0" width="3" height="3" class="pf-dandelion-1"/>
+        <rect x="3" y="3" width="3" height="3" class="pf-dandelion-1"/>
+        <rect x="6" y="3" width="3" height="3" class="pf-dandelion-2"/>
+        <rect x="9" y="3" width="3" height="3" class="pf-dandelion-3"/>
+        <rect x="12" y="3" width="3" height="3" class="pf-dandelion-1"/>
+        <rect x="0" y="6" width="3" height="3" class="pf-dandelion-1"/>
+        <rect x="3" y="6" width="3" height="3" class="pf-dandelion-3"/>
+        <rect x="6" y="6" width="3" height="3" class="pf-dandelion-1"/>
+        <rect x="9" y="6" width="3" height="3" class="pf-dandelion-4"/>
+        <rect x="12" y="6" width="3" height="3" class="pf-dandelion-2"/>
+        <rect x="15" y="6" width="3" height="3" class="pf-dandelion-1"/>
+        <rect x="3" y="9" width="3" height="3" class="pf-dandelion-1"/>
+        <rect x="6" y="9" width="3" height="3" class="pf-dandelion-4"/>
+        <rect x="9" y="9" width="3" height="3" class="pf-dandelion-2"/>
+        <rect x="12" y="9" width="3" height="3" class="pf-dandelion-1"/>
+        <rect x="6" y="12" width="3" height="3" class="pf-dandelion-5"/>
+        <rect x="9" y="12" width="3" height="3" class="pf-dandelion-5"/>
+        <rect x="0" y="15" width="3" height="3" class="pf-dandelion-5"/>
+        <rect x="3" y="15" width="3" height="3" class="pf-dandelion-6"/>
+        <rect x="6" y="15" width="3" height="3" class="pf-dandelion-7"/>
+        <rect x="9" y="15" width="3" height="3" class="pf-dandelion-6"/>
+        <rect x="3" y="18" width="3" height="3" class="pf-dandelion-5"/>
+        <rect x="6" y="18" width="3" height="3" class="pf-dandelion-7"/>
+        <rect x="9" y="18" width="3" height="3" class="pf-dandelion-6"/>
+        <rect x="12" y="18" width="3" height="3" class="pf-dandelion-6"/>
+        <rect x="15" y="18" width="3" height="3" class="pf-dandelion-5"/>
+        <rect x="6" y="21" width="3" height="3" class="pf-dandelion-7"/>
+        <rect x="9" y="21" width="3" height="3" class="pf-dandelion-5"/>
+        <rect x="12" y="21" width="3" height="3" class="pf-dandelion-5"/>
+        <rect x="6" y="24" width="3" height="3" class="pf-dandelion-6"/>
+        <rect x="9" y="24" width="3" height="3" class="pf-dandelion-5"/>
+      </g>
+    </g>
+
+    <g class="pf-underline">
+      <rect x="36" y="68" width="124" height="3"/>
+      <rect class="pf-frame-hi" x="36" y="68" width="124" height="1"/>
+    </g>
+
+    <text class="pf-ink" x="36" y="98" text-anchor="start" font-family="ui-monospace, monospace" font-size="14" font-weight="500" font-style="normal" letter-spacing="0.5">Full-Stack Development - React, Next.js, Node, Express</text>
+
+    <text class="pf-ink" x="36" y="120" text-anchor="start" font-family="ui-monospace, monospace" font-size="14" font-weight="500" font-style="normal" letter-spacing="0.5">Generative AI - practical, production-ready AI apps</text>
+
+    <text class="pf-ink" x="36" y="142" text-anchor="start" font-family="ui-monospace, monospace" font-size="14" font-weight="500" font-style="normal" letter-spacing="0.5">RAG Architectures - LLMs wired to real, useful data</text>
+
+    <g class="pf-tile">
+    <rect class="pf-frame-outer" x="40" y="176" width="720" height="56"/>
+    <rect class="pf-frame-mid" x="41" y="177" width="718" height="54"/>
+    <rect class="pf-frame-inner" x="42" y="178" width="716" height="52"/>
+    <rect class="pf-tile-face" x="43" y="179" width="714" height="50"/>
+    <text class="pf-ink" x="400" y="211" text-anchor="middle" font-family="ui-monospace, monospace" font-size="15" font-weight="700" font-style="normal" letter-spacing="0.5">PRINCE SAINI</text>
+    </g>
+</svg>

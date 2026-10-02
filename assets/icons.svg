@@ -1,0 +1,1427 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="800" height="366" viewBox="0 0 800 366"
+     style="--pf-duration: 12s;--pf-frame-outer: #3a2a14;--pf-frame-mid: #7a4a23;--pf-frame-hi: #a06832;--pf-frame-inner: #3a2a14;--pf-canvas: #f4e4bc;--pf-ink: #3d2818;--pf-ink-muted: #7a4a23;--pf-tile-face: #e6d3a4;--pf-tile-edge-hi: #7a4a23;--pf-tile-edge-lo: #3a2a14;--pf-accent-red: #d04a30;--pf-accent-green: #5fa847;--pf-accent-green-lo: #3e7a30;--pf-accent-yellow: #e8bc60;--pf-accent-gold-lo: #b88c2e;--pf-accent-blue: #4a90c8;--pf-accent-pink: #e07aa0;--pf-accent-pink-hi: #f6bcd2;--pf-steel: #b9c2cb;--pf-steel-hi: #f2f6fa;--pf-cloud: #f0eee0;--pf-cookie-1: #b97335;--pf-cookie-2: #8b4b2b;--pf-cookie-3: #4b2817;--pf-cookie-4: #d9833e;--pf-cookie-5: #e89850;--pf-cookie-6: #572f1a;--pf-cookie-7: #452a13;--pf-cornflower-1: #718dee;--pf-cornflower-2: #4569e8;--pf-cornflower-3: #617fe5;--pf-cornflower-4: #294bc5;--pf-cornflower-5: #422d97;--pf-cornflower-6: #2d6824;--pf-cornflower-7: #8c6bc1;--pf-cornflower-8: #568a4c;--pf-cornflower-9: #5a9a50;--pf-cornflower-a: #3e7834;--pf-dandelion-1: #fce94e;--pf-dandelion-2: #fbd338;--pf-dandelion-3: #ee9b25;--pf-dandelion-4: #bb6922;--pf-dandelion-5: #177b04;--pf-dandelion-6: #498d27;--pf-dandelion-7: #54a92c;--pf-diamond-1: #11727a;--pf-diamond-2: #ffffff;--pf-diamond-3: #d5fff6;--pf-diamond-4: #4aedd9;--pf-diamond-5: #a1fbe8;--pf-diamond-6: #20c5b5;--pf-diamond-7: #145e53;--pf-diamond-8: #1aaaa7;--pf-diamond-9: #1c919a;--pf-diamond-a: #2ce0d8;--pf-diamond-sword-1: #0e3f36;--pf-diamond-sword-2: #a4fdf0;--pf-diamond-sword-3: #082520;--pf-diamond-sword-4: #2bc7ac;--pf-diamond-sword-5: #33ebcb;--pf-diamond-sword-6: #156355;--pf-diamond-sword-7: #1e8a77;--pf-diamond-sword-8: #493615;--pf-diamond-sword-9: #684e1e;--pf-diamond-sword-a: #896727;--pf-diamond-sword-b: #281e0b;--pf-emerald-1: #005300;--pf-emerald-2: #dbffeb;--pf-emerald-3: #41f384;--pf-emerald-4: #17dd62;--pf-emerald-5: #affdcd;--pf-emerald-6: #00aa2c;--pf-emerald-7: #002d00;--pf-emerald-8: #009529;--pf-emerald-9: #82f6ad;--pf-emerald-a: #007b18;--pf-orange-tulip-1: #ee9b25;--pf-orange-tulip-2: #d07c31;--pf-orange-tulip-3: #bb6922;--pf-orange-tulip-4: #177b04;--pf-orange-tulip-5: #498d27;--pf-orange-tulip-6: #51982d;--pf-orange-tulip-7: #54a92c;--pf-oxeye-daisy-1: #99bbbb;--pf-oxeye-daisy-2: #f4f4f4;--pf-oxeye-daisy-3: #d3e5e5;--pf-oxeye-daisy-4: #f2b827;--pf-oxeye-daisy-5: #fbd338;--pf-oxeye-daisy-6: #fce94e;--pf-oxeye-daisy-7: #ee9b25;--pf-oxeye-daisy-8: #51982d;--pf-oxeye-daisy-9: #177b04;--pf-oxeye-daisy-a: #54a92c;--pf-poppy-1: #ea2f2b;--pf-poppy-2: #99221a;--pf-poppy-3: #bd2528;--pf-poppy-4: #732303;--pf-poppy-5: #204526;--pf-poppy-6: #265925;--pf-poppy-7: #498d27;--pf-poppy-8: #2a6f29;--pf-potion-water-1: #d16c48;--pf-potion-water-2: #a74625;--pf-potion-water-3: #d1e2f4;--pf-potion-water-4: #caada3;--pf-potion-water-5: #b1cde9;--pf-potion-water-6: #953616;--pf-potion-water-7: #5c8dc0;--pf-potion-water-8: #375cc4;--pf-potion-water-9: #213776;--pf-potion-water-a: #15244c;--pf-potion-water-b: #2b4797;--pf-potion-water-c: #253d82;--pf-potion-water-d: #203572;--pf-potion-water-e: #89abce;--pf-potion-water-f: #243c7f;">
+  <style>
+    :root { --pf-duration: 12s; --pf-frame-outer: #3a2a14; --pf-frame-mid: #7a4a23; --pf-frame-hi: #a06832; --pf-frame-inner: #3a2a14; --pf-canvas: #f4e4bc; --pf-ink: #3d2818; --pf-ink-muted: #7a4a23; --pf-tile-face: #e6d3a4; --pf-tile-edge-hi: #7a4a23; --pf-tile-edge-lo: #3a2a14; --pf-accent-red: #d04a30; --pf-accent-green: #5fa847; --pf-accent-green-lo: #3e7a30; --pf-accent-yellow: #e8bc60; --pf-accent-gold-lo: #b88c2e; --pf-accent-blue: #4a90c8; --pf-accent-pink: #e07aa0; --pf-accent-pink-hi: #f6bcd2; --pf-steel: #b9c2cb; --pf-steel-hi: #f2f6fa; --pf-cloud: #f0eee0; --pf-cookie-1: #b97335; --pf-cookie-2: #8b4b2b; --pf-cookie-3: #4b2817; --pf-cookie-4: #d9833e; --pf-cookie-5: #e89850; --pf-cookie-6: #572f1a; --pf-cookie-7: #452a13; --pf-cornflower-1: #718dee; --pf-cornflower-2: #4569e8; --pf-cornflower-3: #617fe5; --pf-cornflower-4: #294bc5; --pf-cornflower-5: #422d97; --pf-cornflower-6: #2d6824; --pf-cornflower-7: #8c6bc1; --pf-cornflower-8: #568a4c; --pf-cornflower-9: #5a9a50; --pf-cornflower-a: #3e7834; --pf-dandelion-1: #fce94e; --pf-dandelion-2: #fbd338; --pf-dandelion-3: #ee9b25; --pf-dandelion-4: #bb6922; --pf-dandelion-5: #177b04; --pf-dandelion-6: #498d27; --pf-dandelion-7: #54a92c; --pf-diamond-1: #11727a; --pf-diamond-2: #ffffff; --pf-diamond-3: #d5fff6; --pf-diamond-4: #4aedd9; --pf-diamond-5: #a1fbe8; --pf-diamond-6: #20c5b5; --pf-diamond-7: #145e53; --pf-diamond-8: #1aaaa7; --pf-diamond-9: #1c919a; --pf-diamond-a: #2ce0d8; --pf-diamond-sword-1: #0e3f36; --pf-diamond-sword-2: #a4fdf0; --pf-diamond-sword-3: #082520; --pf-diamond-sword-4: #2bc7ac; --pf-diamond-sword-5: #33ebcb; --pf-diamond-sword-6: #156355; --pf-diamond-sword-7: #1e8a77; --pf-diamond-sword-8: #493615; --pf-diamond-sword-9: #684e1e; --pf-diamond-sword-a: #896727; --pf-diamond-sword-b: #281e0b; --pf-emerald-1: #005300; --pf-emerald-2: #dbffeb; --pf-emerald-3: #41f384; --pf-emerald-4: #17dd62; --pf-emerald-5: #affdcd; --pf-emerald-6: #00aa2c; --pf-emerald-7: #002d00; --pf-emerald-8: #009529; --pf-emerald-9: #82f6ad; --pf-emerald-a: #007b18; --pf-orange-tulip-1: #ee9b25; --pf-orange-tulip-2: #d07c31; --pf-orange-tulip-3: #bb6922; --pf-orange-tulip-4: #177b04; --pf-orange-tulip-5: #498d27; --pf-orange-tulip-6: #51982d; --pf-orange-tulip-7: #54a92c; --pf-oxeye-daisy-1: #99bbbb; --pf-oxeye-daisy-2: #f4f4f4; --pf-oxeye-daisy-3: #d3e5e5; --pf-oxeye-daisy-4: #f2b827; --pf-oxeye-daisy-5: #fbd338; --pf-oxeye-daisy-6: #fce94e; --pf-oxeye-daisy-7: #ee9b25; --pf-oxeye-daisy-8: #51982d; --pf-oxeye-daisy-9: #177b04; --pf-oxeye-daisy-a: #54a92c; --pf-poppy-1: #ea2f2b; --pf-poppy-2: #99221a; --pf-poppy-3: #bd2528; --pf-poppy-4: #732303; --pf-poppy-5: #204526; --pf-poppy-6: #265925; --pf-poppy-7: #498d27; --pf-poppy-8: #2a6f29; --pf-potion-water-1: #d16c48; --pf-potion-water-2: #a74625; --pf-potion-water-3: #d1e2f4; --pf-potion-water-4: #caada3; --pf-potion-water-5: #b1cde9; --pf-potion-water-6: #953616; --pf-potion-water-7: #5c8dc0; --pf-potion-water-8: #375cc4; --pf-potion-water-9: #213776; --pf-potion-water-a: #15244c; --pf-potion-water-b: #2b4797; --pf-potion-water-c: #253d82; --pf-potion-water-d: #203572; --pf-potion-water-e: #89abce; --pf-potion-water-f: #243c7f; }
+    .pf-accent-blue { fill: var(--pf-accent-blue); }
+    .pf-accent-gold-lo { fill: var(--pf-accent-gold-lo); }
+    .pf-accent-green { fill: var(--pf-accent-green); }
+    .pf-accent-green-lo { fill: var(--pf-accent-green-lo); }
+    .pf-accent-pink { fill: var(--pf-accent-pink); }
+    .pf-accent-pink-hi { fill: var(--pf-accent-pink-hi); }
+    .pf-accent-red { fill: var(--pf-accent-red); }
+    .pf-accent-yellow { fill: var(--pf-accent-yellow); }
+    .pf-canvas { fill: var(--pf-canvas); }
+    .pf-cloud { fill: var(--pf-cloud); }
+    .pf-cookie-1 { fill: var(--pf-cookie-1); }
+    .pf-cookie-2 { fill: var(--pf-cookie-2); }
+    .pf-cookie-3 { fill: var(--pf-cookie-3); }
+    .pf-cookie-4 { fill: var(--pf-cookie-4); }
+    .pf-cookie-5 { fill: var(--pf-cookie-5); }
+    .pf-cookie-6 { fill: var(--pf-cookie-6); }
+    .pf-cookie-7 { fill: var(--pf-cookie-7); }
+    .pf-cornflower-1 { fill: var(--pf-cornflower-1); }
+    .pf-cornflower-2 { fill: var(--pf-cornflower-2); }
+    .pf-cornflower-3 { fill: var(--pf-cornflower-3); }
+    .pf-cornflower-4 { fill: var(--pf-cornflower-4); }
+    .pf-cornflower-5 { fill: var(--pf-cornflower-5); }
+    .pf-cornflower-6 { fill: var(--pf-cornflower-6); }
+    .pf-cornflower-7 { fill: var(--pf-cornflower-7); }
+    .pf-cornflower-8 { fill: var(--pf-cornflower-8); }
+    .pf-cornflower-9 { fill: var(--pf-cornflower-9); }
+    .pf-cornflower-a { fill: var(--pf-cornflower-a); }
+    .pf-dandelion-1 { fill: var(--pf-dandelion-1); }
+    .pf-dandelion-2 { fill: var(--pf-dandelion-2); }
+    .pf-dandelion-3 { fill: var(--pf-dandelion-3); }
+    .pf-dandelion-4 { fill: var(--pf-dandelion-4); }
+    .pf-dandelion-5 { fill: var(--pf-dandelion-5); }
+    .pf-dandelion-6 { fill: var(--pf-dandelion-6); }
+    .pf-dandelion-7 { fill: var(--pf-dandelion-7); }
+    .pf-diamond-1 { fill: var(--pf-diamond-1); }
+    .pf-diamond-2 { fill: var(--pf-diamond-2); }
+    .pf-diamond-3 { fill: var(--pf-diamond-3); }
+    .pf-diamond-4 { fill: var(--pf-diamond-4); }
+    .pf-diamond-5 { fill: var(--pf-diamond-5); }
+    .pf-diamond-6 { fill: var(--pf-diamond-6); }
+    .pf-diamond-7 { fill: var(--pf-diamond-7); }
+    .pf-diamond-8 { fill: var(--pf-diamond-8); }
+    .pf-diamond-9 { fill: var(--pf-diamond-9); }
+    .pf-diamond-a { fill: var(--pf-diamond-a); }
+    .pf-diamond-sword-1 { fill: var(--pf-diamond-sword-1); }
+    .pf-diamond-sword-2 { fill: var(--pf-diamond-sword-2); }
+    .pf-diamond-sword-3 { fill: var(--pf-diamond-sword-3); }
+    .pf-diamond-sword-4 { fill: var(--pf-diamond-sword-4); }
+    .pf-diamond-sword-5 { fill: var(--pf-diamond-sword-5); }
+    .pf-diamond-sword-6 { fill: var(--pf-diamond-sword-6); }
+    .pf-diamond-sword-7 { fill: var(--pf-diamond-sword-7); }
+    .pf-diamond-sword-8 { fill: var(--pf-diamond-sword-8); }
+    .pf-diamond-sword-9 { fill: var(--pf-diamond-sword-9); }
+    .pf-diamond-sword-a { fill: var(--pf-diamond-sword-a); }
+    .pf-diamond-sword-b { fill: var(--pf-diamond-sword-b); }
+    .pf-emerald-1 { fill: var(--pf-emerald-1); }
+    .pf-emerald-2 { fill: var(--pf-emerald-2); }
+    .pf-emerald-3 { fill: var(--pf-emerald-3); }
+    .pf-emerald-4 { fill: var(--pf-emerald-4); }
+    .pf-emerald-5 { fill: var(--pf-emerald-5); }
+    .pf-emerald-6 { fill: var(--pf-emerald-6); }
+    .pf-emerald-7 { fill: var(--pf-emerald-7); }
+    .pf-emerald-8 { fill: var(--pf-emerald-8); }
+    .pf-emerald-9 { fill: var(--pf-emerald-9); }
+    .pf-emerald-a { fill: var(--pf-emerald-a); }
+    .pf-frame-hi { fill: var(--pf-frame-hi); }
+    .pf-frame-outer { fill: var(--pf-frame-outer); }
+    .pf-ink { fill: var(--pf-ink); }
+    .pf-ink-muted { fill: var(--pf-ink-muted); }
+    .pf-orange-tulip-1 { fill: var(--pf-orange-tulip-1); }
+    .pf-orange-tulip-2 { fill: var(--pf-orange-tulip-2); }
+    .pf-orange-tulip-3 { fill: var(--pf-orange-tulip-3); }
+    .pf-orange-tulip-4 { fill: var(--pf-orange-tulip-4); }
+    .pf-orange-tulip-5 { fill: var(--pf-orange-tulip-5); }
+    .pf-orange-tulip-6 { fill: var(--pf-orange-tulip-6); }
+    .pf-orange-tulip-7 { fill: var(--pf-orange-tulip-7); }
+    .pf-oxeye-daisy-1 { fill: var(--pf-oxeye-daisy-1); }
+    .pf-oxeye-daisy-2 { fill: var(--pf-oxeye-daisy-2); }
+    .pf-oxeye-daisy-3 { fill: var(--pf-oxeye-daisy-3); }
+    .pf-oxeye-daisy-4 { fill: var(--pf-oxeye-daisy-4); }
+    .pf-oxeye-daisy-5 { fill: var(--pf-oxeye-daisy-5); }
+    .pf-oxeye-daisy-6 { fill: var(--pf-oxeye-daisy-6); }
+    .pf-oxeye-daisy-7 { fill: var(--pf-oxeye-daisy-7); }
+    .pf-oxeye-daisy-8 { fill: var(--pf-oxeye-daisy-8); }
+    .pf-oxeye-daisy-9 { fill: var(--pf-oxeye-daisy-9); }
+    .pf-oxeye-daisy-a { fill: var(--pf-oxeye-daisy-a); }
+    .pf-poppy-1 { fill: var(--pf-poppy-1); }
+    .pf-poppy-2 { fill: var(--pf-poppy-2); }
+    .pf-poppy-3 { fill: var(--pf-poppy-3); }
+    .pf-poppy-4 { fill: var(--pf-poppy-4); }
+    .pf-poppy-5 { fill: var(--pf-poppy-5); }
+    .pf-poppy-6 { fill: var(--pf-poppy-6); }
+    .pf-poppy-7 { fill: var(--pf-poppy-7); }
+    .pf-poppy-8 { fill: var(--pf-poppy-8); }
+    .pf-potion-water-1 { fill: var(--pf-potion-water-1); }
+    .pf-potion-water-2 { fill: var(--pf-potion-water-2); }
+    .pf-potion-water-3 { fill: var(--pf-potion-water-3); }
+    .pf-potion-water-4 { fill: var(--pf-potion-water-4); }
+    .pf-potion-water-5 { fill: var(--pf-potion-water-5); }
+    .pf-potion-water-6 { fill: var(--pf-potion-water-6); }
+    .pf-potion-water-7 { fill: var(--pf-potion-water-7); }
+    .pf-potion-water-8 { fill: var(--pf-potion-water-8); }
+    .pf-potion-water-9 { fill: var(--pf-potion-water-9); }
+    .pf-potion-water-a { fill: var(--pf-potion-water-a); }
+    .pf-potion-water-b { fill: var(--pf-potion-water-b); }
+    .pf-potion-water-c { fill: var(--pf-potion-water-c); }
+    .pf-potion-water-d { fill: var(--pf-potion-water-d); }
+    .pf-potion-water-e { fill: var(--pf-potion-water-e); }
+    .pf-potion-water-f { fill: var(--pf-potion-water-f); }
+    .pf-steel { fill: var(--pf-steel); }
+    .pf-steel-hi { fill: var(--pf-steel-hi); }
+    .pf-tile-face { fill: var(--pf-tile-face); }
+  </style>
+
+  <!--
+    Canonical pixel-icon library for banners (bullets, decor, tile glyphs).
+    Each <g id="i-x"> is drawn at (0,0) with its own cell size; every rect
+    carries a .pf-* token class, so icons are multi-color and themeable.
+    Copy the <g> you need into a banner's <defs>, or let tools/banner.py
+    place it inline via config. Scale only by integers.
+    Generated by tools/icons.py - edit that, not this file.
+  -->
+
+  <defs>
+    <g id="i-bullet-dot">
+      <rect x="0" y="0" width="4" height="4" class="pf-ink"/>
+      <rect x="4" y="0" width="4" height="4" class="pf-ink"/>
+      <rect x="0" y="4" width="4" height="4" class="pf-ink"/>
+      <rect x="4" y="4" width="4" height="4" class="pf-ink"/>
+    </g>
+
+    <g id="i-bullet-square">
+      <rect x="0" y="0" width="4" height="4" class="pf-ink"/>
+      <rect x="4" y="0" width="4" height="4" class="pf-ink"/>
+      <rect x="8" y="0" width="4" height="4" class="pf-ink"/>
+      <rect x="0" y="4" width="4" height="4" class="pf-ink"/>
+      <rect x="4" y="4" width="4" height="4" class="pf-ink"/>
+      <rect x="8" y="4" width="4" height="4" class="pf-ink"/>
+      <rect x="0" y="8" width="4" height="4" class="pf-ink"/>
+      <rect x="4" y="8" width="4" height="4" class="pf-ink"/>
+      <rect x="8" y="8" width="4" height="4" class="pf-ink"/>
+    </g>
+
+    <g id="i-bullet-diamond">
+      <rect x="4" y="0" width="4" height="4" class="pf-ink"/>
+      <rect x="0" y="4" width="4" height="4" class="pf-ink"/>
+      <rect x="4" y="4" width="4" height="4" class="pf-ink"/>
+      <rect x="8" y="4" width="4" height="4" class="pf-ink"/>
+      <rect x="4" y="8" width="4" height="4" class="pf-ink"/>
+    </g>
+
+    <g id="i-bullet-arrow">
+      <rect x="0" y="0" width="4" height="4" class="pf-ink"/>
+      <rect x="0" y="4" width="4" height="4" class="pf-ink"/>
+      <rect x="4" y="4" width="4" height="4" class="pf-ink"/>
+      <rect x="0" y="8" width="4" height="4" class="pf-ink"/>
+      <rect x="4" y="8" width="4" height="4" class="pf-ink"/>
+      <rect x="8" y="8" width="4" height="4" class="pf-ink"/>
+      <rect x="0" y="12" width="4" height="4" class="pf-ink"/>
+      <rect x="4" y="12" width="4" height="4" class="pf-ink"/>
+      <rect x="0" y="16" width="4" height="4" class="pf-ink"/>
+    </g>
+
+    <g id="i-star">
+      <rect x="8" y="0" width="4" height="4" class="pf-accent-yellow"/>
+      <rect x="0" y="4" width="4" height="4" class="pf-accent-yellow"/>
+      <rect x="4" y="4" width="4" height="4" class="pf-accent-yellow"/>
+      <rect x="8" y="4" width="4" height="4" class="pf-accent-yellow"/>
+      <rect x="12" y="4" width="4" height="4" class="pf-accent-yellow"/>
+      <rect x="16" y="4" width="4" height="4" class="pf-accent-yellow"/>
+      <rect x="4" y="8" width="4" height="4" class="pf-accent-yellow"/>
+      <rect x="8" y="8" width="4" height="4" class="pf-accent-yellow"/>
+      <rect x="12" y="8" width="4" height="4" class="pf-accent-yellow"/>
+      <rect x="4" y="12" width="4" height="4" class="pf-accent-yellow"/>
+      <rect x="12" y="12" width="4" height="4" class="pf-accent-yellow"/>
+      <rect x="0" y="16" width="4" height="4" class="pf-accent-yellow"/>
+      <rect x="16" y="16" width="4" height="4" class="pf-accent-yellow"/>
+    </g>
+
+    <g id="i-rocket">
+      <rect x="12" y="0" width="2" height="2" class="pf-ink"/>
+      <rect x="10" y="2" width="2" height="2" class="pf-ink"/>
+      <rect x="12" y="2" width="2" height="2" class="pf-accent-yellow"/>
+      <rect x="14" y="2" width="2" height="2" class="pf-ink"/>
+      <rect x="10" y="4" width="2" height="2" class="pf-ink"/>
+      <rect x="12" y="4" width="2" height="2" class="pf-accent-yellow"/>
+      <rect x="14" y="4" width="2" height="2" class="pf-ink"/>
+      <rect x="8" y="6" width="2" height="2" class="pf-ink"/>
+      <rect x="10" y="6" width="2" height="2" class="pf-accent-yellow"/>
+      <rect x="12" y="6" width="2" height="2" class="pf-accent-yellow"/>
+      <rect x="14" y="6" width="2" height="2" class="pf-accent-yellow"/>
+      <rect x="16" y="6" width="2" height="2" class="pf-ink"/>
+      <rect x="0" y="8" width="2" height="2" class="pf-ink"/>
+      <rect x="2" y="8" width="2" height="2" class="pf-ink"/>
+      <rect x="4" y="8" width="2" height="2" class="pf-ink"/>
+      <rect x="6" y="8" width="2" height="2" class="pf-ink"/>
+      <rect x="8" y="8" width="2" height="2" class="pf-ink"/>
+      <rect x="10" y="8" width="2" height="2" class="pf-accent-yellow"/>
+      <rect x="12" y="8" width="2" height="2" class="pf-accent-yellow"/>
+      <rect x="14" y="8" width="2" height="2" class="pf-accent-yellow"/>
+      <rect x="16" y="8" width="2" height="2" class="pf-ink"/>
+      <rect x="18" y="8" width="2" height="2" class="pf-ink"/>
+      <rect x="20" y="8" width="2" height="2" class="pf-ink"/>
+      <rect x="22" y="8" width="2" height="2" class="pf-ink"/>
+      <rect x="24" y="8" width="2" height="2" class="pf-ink"/>
+      <rect x="0" y="10" width="2" height="2" class="pf-ink"/>
+      <rect x="2" y="10" width="2" height="2" class="pf-accent-yellow"/>
+      <rect x="4" y="10" width="2" height="2" class="pf-accent-yellow"/>
+      <rect x="6" y="10" width="2" height="2" class="pf-accent-yellow"/>
+      <rect x="8" y="10" width="2" height="2" class="pf-accent-yellow"/>
+      <rect x="10" y="10" width="2" height="2" class="pf-accent-yellow"/>
+      <rect x="12" y="10" width="2" height="2" class="pf-accent-yellow"/>
+      <rect x="14" y="10" width="2" height="2" class="pf-accent-yellow"/>
+      <rect x="16" y="10" width="2" height="2" class="pf-cloud"/>
+      <rect x="18" y="10" width="2" height="2" class="pf-accent-yellow"/>
+      <rect x="20" y="10" width="2" height="2" class="pf-accent-yellow"/>
+      <rect x="22" y="10" width="2" height="2" class="pf-accent-yellow"/>
+      <rect x="24" y="10" width="2" height="2" class="pf-accent-yellow"/>
+      <rect x="2" y="12" width="2" height="2" class="pf-ink"/>
+      <rect x="4" y="12" width="2" height="2" class="pf-accent-yellow"/>
+      <rect x="6" y="12" width="2" height="2" class="pf-accent-yellow"/>
+      <rect x="8" y="12" width="2" height="2" class="pf-accent-yellow"/>
+      <rect x="10" y="12" width="2" height="2" class="pf-accent-yellow"/>
+      <rect x="12" y="12" width="2" height="2" class="pf-accent-yellow"/>
+      <rect x="14" y="12" width="2" height="2" class="pf-accent-yellow"/>
+      <rect x="16" y="12" width="2" height="2" class="pf-accent-yellow"/>
+      <rect x="18" y="12" width="2" height="2" class="pf-cloud"/>
+      <rect x="20" y="12" width="2" height="2" class="pf-accent-yellow"/>
+      <rect x="22" y="12" width="2" height="2" class="pf-ink"/>
+      <rect x="4" y="14" width="2" height="2" class="pf-ink"/>
+      <rect x="6" y="14" width="2" height="2" class="pf-accent-yellow"/>
+      <rect x="8" y="14" width="2" height="2" class="pf-accent-yellow"/>
+      <rect x="10" y="14" width="2" height="2" class="pf-accent-yellow"/>
+      <rect x="12" y="14" width="2" height="2" class="pf-accent-yellow"/>
+      <rect x="14" y="14" width="2" height="2" class="pf-accent-yellow"/>
+      <rect x="16" y="14" width="2" height="2" class="pf-accent-yellow"/>
+      <rect x="18" y="14" width="2" height="2" class="pf-accent-yellow"/>
+      <rect x="20" y="14" width="2" height="2" class="pf-ink"/>
+      <rect x="6" y="16" width="2" height="2" class="pf-ink"/>
+      <rect x="8" y="16" width="2" height="2" class="pf-accent-yellow"/>
+      <rect x="10" y="16" width="2" height="2" class="pf-accent-yellow"/>
+      <rect x="12" y="16" width="2" height="2" class="pf-accent-yellow"/>
+      <rect x="14" y="16" width="2" height="2" class="pf-accent-yellow"/>
+      <rect x="16" y="16" width="2" height="2" class="pf-accent-yellow"/>
+      <rect x="18" y="16" width="2" height="2" class="pf-ink"/>
+      <rect x="6" y="18" width="2" height="2" class="pf-ink"/>
+      <rect x="8" y="18" width="2" height="2" class="pf-accent-yellow"/>
+      <rect x="10" y="18" width="2" height="2" class="pf-accent-yellow"/>
+      <rect x="12" y="18" width="2" height="2" class="pf-accent-yellow"/>
+      <rect x="14" y="18" width="2" height="2" class="pf-accent-yellow"/>
+      <rect x="16" y="18" width="2" height="2" class="pf-accent-yellow"/>
+      <rect x="18" y="18" width="2" height="2" class="pf-ink"/>
+      <rect x="4" y="20" width="2" height="2" class="pf-ink"/>
+      <rect x="6" y="20" width="2" height="2" class="pf-accent-yellow"/>
+      <rect x="8" y="20" width="2" height="2" class="pf-accent-yellow"/>
+      <rect x="10" y="20" width="2" height="2" class="pf-ink"/>
+      <rect x="14" y="20" width="2" height="2" class="pf-ink"/>
+      <rect x="16" y="20" width="2" height="2" class="pf-accent-yellow"/>
+      <rect x="18" y="20" width="2" height="2" class="pf-accent-yellow"/>
+      <rect x="20" y="20" width="2" height="2" class="pf-ink"/>
+      <rect x="4" y="22" width="2" height="2" class="pf-ink"/>
+      <rect x="6" y="22" width="2" height="2" class="pf-accent-yellow"/>
+      <rect x="8" y="22" width="2" height="2" class="pf-ink"/>
+      <rect x="16" y="22" width="2" height="2" class="pf-ink"/>
+      <rect x="18" y="22" width="2" height="2" class="pf-accent-yellow"/>
+      <rect x="20" y="22" width="2" height="2" class="pf-ink"/>
+      <rect x="4" y="24" width="2" height="2" class="pf-ink"/>
+      <rect x="6" y="24" width="2" height="2" class="pf-ink"/>
+      <rect x="18" y="24" width="2" height="2" class="pf-ink"/>
+      <rect x="20" y="24" width="2" height="2" class="pf-ink"/>
+    </g>
+
+    <g id="i-sun">
+      <rect x="12" y="0" width="2" height="2" class="pf-ink"/>
+      <rect x="12" y="2" width="2" height="2" class="pf-ink"/>
+      <rect x="4" y="4" width="2" height="2" class="pf-ink"/>
+      <rect x="12" y="4" width="2" height="2" class="pf-ink"/>
+      <rect x="20" y="4" width="2" height="2" class="pf-ink"/>
+      <rect x="6" y="6" width="2" height="2" class="pf-ink"/>
+      <rect x="10" y="6" width="2" height="2" class="pf-ink"/>
+      <rect x="12" y="6" width="2" height="2" class="pf-ink"/>
+      <rect x="14" y="6" width="2" height="2" class="pf-ink"/>
+      <rect x="18" y="6" width="2" height="2" class="pf-ink"/>
+      <rect x="8" y="8" width="2" height="2" class="pf-ink"/>
+      <rect x="10" y="8" width="2" height="2" class="pf-accent-yellow"/>
+      <rect x="12" y="8" width="2" height="2" class="pf-accent-yellow"/>
+      <rect x="14" y="8" width="2" height="2" class="pf-accent-yellow"/>
+      <rect x="16" y="8" width="2" height="2" class="pf-ink"/>
+      <rect x="2" y="10" width="2" height="2" class="pf-ink"/>
+      <rect x="4" y="10" width="2" height="2" class="pf-ink"/>
+      <rect x="8" y="10" width="2" height="2" class="pf-ink"/>
+      <rect x="10" y="10" width="2" height="2" class="pf-accent-yellow"/>
+      <rect x="12" y="10" width="2" height="2" class="pf-cloud"/>
+      <rect x="14" y="10" width="2" height="2" class="pf-accent-yellow"/>
+      <rect x="16" y="10" width="2" height="2" class="pf-ink"/>
+      <rect x="20" y="10" width="2" height="2" class="pf-ink"/>
+      <rect x="22" y="10" width="2" height="2" class="pf-ink"/>
+      <rect x="2" y="12" width="2" height="2" class="pf-ink"/>
+      <rect x="8" y="12" width="2" height="2" class="pf-ink"/>
+      <rect x="10" y="12" width="2" height="2" class="pf-accent-yellow"/>
+      <rect x="12" y="12" width="2" height="2" class="pf-accent-yellow"/>
+      <rect x="14" y="12" width="2" height="2" class="pf-accent-yellow"/>
+      <rect x="16" y="12" width="2" height="2" class="pf-ink"/>
+      <rect x="22" y="12" width="2" height="2" class="pf-ink"/>
+      <rect x="2" y="14" width="2" height="2" class="pf-ink"/>
+      <rect x="4" y="14" width="2" height="2" class="pf-ink"/>
+      <rect x="8" y="14" width="2" height="2" class="pf-ink"/>
+      <rect x="10" y="14" width="2" height="2" class="pf-accent-yellow"/>
+      <rect x="12" y="14" width="2" height="2" class="pf-accent-yellow"/>
+      <rect x="14" y="14" width="2" height="2" class="pf-accent-yellow"/>
+      <rect x="16" y="14" width="2" height="2" class="pf-ink"/>
+      <rect x="20" y="14" width="2" height="2" class="pf-ink"/>
+      <rect x="22" y="14" width="2" height="2" class="pf-ink"/>
+      <rect x="8" y="16" width="2" height="2" class="pf-ink"/>
+      <rect x="10" y="16" width="2" height="2" class="pf-accent-yellow"/>
+      <rect x="12" y="16" width="2" height="2" class="pf-accent-yellow"/>
+      <rect x="14" y="16" width="2" height="2" class="pf-accent-yellow"/>
+      <rect x="16" y="16" width="2" height="2" class="pf-ink"/>
+      <rect x="6" y="18" width="2" height="2" class="pf-ink"/>
+      <rect x="10" y="18" width="2" height="2" class="pf-ink"/>
+      <rect x="12" y="18" width="2" height="2" class="pf-ink"/>
+      <rect x="14" y="18" width="2" height="2" class="pf-ink"/>
+      <rect x="18" y="18" width="2" height="2" class="pf-ink"/>
+      <rect x="4" y="20" width="2" height="2" class="pf-ink"/>
+      <rect x="12" y="20" width="2" height="2" class="pf-ink"/>
+      <rect x="20" y="20" width="2" height="2" class="pf-ink"/>
+      <rect x="12" y="22" width="2" height="2" class="pf-ink"/>
+      <rect x="12" y="24" width="2" height="2" class="pf-ink"/>
+    </g>
+
+    <g id="i-flower">
+      <rect x="8" y="0" width="2" height="2" class="pf-ink"/>
+      <rect x="10" y="0" width="2" height="2" class="pf-ink"/>
+      <rect x="12" y="0" width="2" height="2" class="pf-ink"/>
+      <rect x="14" y="0" width="2" height="2" class="pf-ink"/>
+      <rect x="16" y="0" width="2" height="2" class="pf-ink"/>
+      <rect x="6" y="2" width="2" height="2" class="pf-ink"/>
+      <rect x="8" y="2" width="2" height="2" class="pf-accent-pink"/>
+      <rect x="10" y="2" width="2" height="2" class="pf-accent-pink"/>
+      <rect x="12" y="2" width="2" height="2" class="pf-accent-pink"/>
+      <rect x="14" y="2" width="2" height="2" class="pf-accent-pink"/>
+      <rect x="16" y="2" width="2" height="2" class="pf-accent-pink"/>
+      <rect x="18" y="2" width="2" height="2" class="pf-ink"/>
+      <rect x="4" y="4" width="2" height="2" class="pf-ink"/>
+      <rect x="6" y="4" width="2" height="2" class="pf-accent-pink"/>
+      <rect x="8" y="4" width="2" height="2" class="pf-accent-pink"/>
+      <rect x="10" y="4" width="2" height="2" class="pf-accent-pink-hi"/>
+      <rect x="12" y="4" width="2" height="2" class="pf-accent-pink"/>
+      <rect x="14" y="4" width="2" height="2" class="pf-accent-pink-hi"/>
+      <rect x="16" y="4" width="2" height="2" class="pf-accent-pink"/>
+      <rect x="18" y="4" width="2" height="2" class="pf-accent-pink"/>
+      <rect x="20" y="4" width="2" height="2" class="pf-ink"/>
+      <rect x="4" y="6" width="2" height="2" class="pf-ink"/>
+      <rect x="6" y="6" width="2" height="2" class="pf-accent-pink"/>
+      <rect x="8" y="6" width="2" height="2" class="pf-accent-pink-hi"/>
+      <rect x="10" y="6" width="2" height="2" class="pf-accent-pink-hi"/>
+      <rect x="12" y="6" width="2" height="2" class="pf-accent-pink"/>
+      <rect x="14" y="6" width="2" height="2" class="pf-accent-pink-hi"/>
+      <rect x="16" y="6" width="2" height="2" class="pf-accent-pink-hi"/>
+      <rect x="18" y="6" width="2" height="2" class="pf-accent-pink"/>
+      <rect x="20" y="6" width="2" height="2" class="pf-ink"/>
+      <rect x="4" y="8" width="2" height="2" class="pf-ink"/>
+      <rect x="6" y="8" width="2" height="2" class="pf-accent-pink"/>
+      <rect x="8" y="8" width="2" height="2" class="pf-accent-pink"/>
+      <rect x="10" y="8" width="2" height="2" class="pf-accent-pink"/>
+      <rect x="12" y="8" width="2" height="2" class="pf-accent-yellow"/>
+      <rect x="14" y="8" width="2" height="2" class="pf-accent-pink"/>
+      <rect x="16" y="8" width="2" height="2" class="pf-accent-pink"/>
+      <rect x="18" y="8" width="2" height="2" class="pf-accent-pink"/>
+      <rect x="20" y="8" width="2" height="2" class="pf-ink"/>
+      <rect x="4" y="10" width="2" height="2" class="pf-ink"/>
+      <rect x="6" y="10" width="2" height="2" class="pf-accent-pink"/>
+      <rect x="8" y="10" width="2" height="2" class="pf-accent-pink"/>
+      <rect x="10" y="10" width="2" height="2" class="pf-accent-yellow"/>
+      <rect x="12" y="10" width="2" height="2" class="pf-accent-yellow"/>
+      <rect x="14" y="10" width="2" height="2" class="pf-accent-yellow"/>
+      <rect x="16" y="10" width="2" height="2" class="pf-accent-pink"/>
+      <rect x="18" y="10" width="2" height="2" class="pf-accent-pink"/>
+      <rect x="20" y="10" width="2" height="2" class="pf-ink"/>
+      <rect x="6" y="12" width="2" height="2" class="pf-ink"/>
+      <rect x="8" y="12" width="2" height="2" class="pf-accent-pink"/>
+      <rect x="10" y="12" width="2" height="2" class="pf-accent-pink"/>
+      <rect x="12" y="12" width="2" height="2" class="pf-accent-yellow"/>
+      <rect x="14" y="12" width="2" height="2" class="pf-accent-pink"/>
+      <rect x="16" y="12" width="2" height="2" class="pf-accent-pink"/>
+      <rect x="18" y="12" width="2" height="2" class="pf-ink"/>
+      <rect x="8" y="14" width="2" height="2" class="pf-ink"/>
+      <rect x="10" y="14" width="2" height="2" class="pf-ink"/>
+      <rect x="12" y="14" width="2" height="2" class="pf-accent-green"/>
+      <rect x="14" y="14" width="2" height="2" class="pf-ink"/>
+      <rect x="16" y="14" width="2" height="2" class="pf-ink"/>
+      <rect x="12" y="16" width="2" height="2" class="pf-accent-green"/>
+      <rect x="6" y="18" width="2" height="2" class="pf-ink"/>
+      <rect x="8" y="18" width="2" height="2" class="pf-accent-green"/>
+      <rect x="10" y="18" width="2" height="2" class="pf-accent-green"/>
+      <rect x="12" y="18" width="2" height="2" class="pf-accent-green"/>
+      <rect x="4" y="20" width="2" height="2" class="pf-ink"/>
+      <rect x="6" y="20" width="2" height="2" class="pf-accent-green"/>
+      <rect x="8" y="20" width="2" height="2" class="pf-accent-green"/>
+      <rect x="10" y="20" width="2" height="2" class="pf-accent-green"/>
+      <rect x="12" y="20" width="2" height="2" class="pf-accent-green"/>
+      <rect x="14" y="20" width="2" height="2" class="pf-ink"/>
+      <rect x="6" y="22" width="2" height="2" class="pf-ink"/>
+      <rect x="8" y="22" width="2" height="2" class="pf-accent-green"/>
+      <rect x="10" y="22" width="2" height="2" class="pf-accent-green"/>
+      <rect x="12" y="22" width="2" height="2" class="pf-ink"/>
+      <rect x="12" y="24" width="2" height="2" class="pf-accent-green"/>
+    </g>
+
+    <g id="i-heart">
+      <rect x="4" y="0" width="2" height="2" class="pf-ink"/>
+      <rect x="6" y="0" width="2" height="2" class="pf-ink"/>
+      <rect x="8" y="0" width="2" height="2" class="pf-ink"/>
+      <rect x="16" y="0" width="2" height="2" class="pf-ink"/>
+      <rect x="18" y="0" width="2" height="2" class="pf-ink"/>
+      <rect x="20" y="0" width="2" height="2" class="pf-ink"/>
+      <rect x="2" y="2" width="2" height="2" class="pf-ink"/>
+      <rect x="4" y="2" width="2" height="2" class="pf-accent-red"/>
+      <rect x="6" y="2" width="2" height="2" class="pf-accent-red"/>
+      <rect x="8" y="2" width="2" height="2" class="pf-accent-red"/>
+      <rect x="10" y="2" width="2" height="2" class="pf-ink"/>
+      <rect x="14" y="2" width="2" height="2" class="pf-ink"/>
+      <rect x="16" y="2" width="2" height="2" class="pf-accent-red"/>
+      <rect x="18" y="2" width="2" height="2" class="pf-accent-red"/>
+      <rect x="20" y="2" width="2" height="2" class="pf-accent-red"/>
+      <rect x="22" y="2" width="2" height="2" class="pf-ink"/>
+      <rect x="0" y="4" width="2" height="2" class="pf-ink"/>
+      <rect x="2" y="4" width="2" height="2" class="pf-accent-red"/>
+      <rect x="4" y="4" width="2" height="2" class="pf-accent-red"/>
+      <rect x="6" y="4" width="2" height="2" class="pf-accent-red"/>
+      <rect x="8" y="4" width="2" height="2" class="pf-accent-red"/>
+      <rect x="10" y="4" width="2" height="2" class="pf-accent-red"/>
+      <rect x="12" y="4" width="2" height="2" class="pf-ink"/>
+      <rect x="14" y="4" width="2" height="2" class="pf-accent-red"/>
+      <rect x="16" y="4" width="2" height="2" class="pf-accent-red"/>
+      <rect x="18" y="4" width="2" height="2" class="pf-accent-red"/>
+      <rect x="20" y="4" width="2" height="2" class="pf-accent-red"/>
+      <rect x="22" y="4" width="2" height="2" class="pf-accent-red"/>
+      <rect x="24" y="4" width="2" height="2" class="pf-ink"/>
+      <rect x="0" y="6" width="2" height="2" class="pf-ink"/>
+      <rect x="2" y="6" width="2" height="2" class="pf-accent-red"/>
+      <rect x="4" y="6" width="2" height="2" class="pf-accent-red"/>
+      <rect x="6" y="6" width="2" height="2" class="pf-cloud"/>
+      <rect x="8" y="6" width="2" height="2" class="pf-accent-red"/>
+      <rect x="10" y="6" width="2" height="2" class="pf-accent-red"/>
+      <rect x="12" y="6" width="2" height="2" class="pf-accent-red"/>
+      <rect x="14" y="6" width="2" height="2" class="pf-accent-red"/>
+      <rect x="16" y="6" width="2" height="2" class="pf-accent-red"/>
+      <rect x="18" y="6" width="2" height="2" class="pf-accent-red"/>
+      <rect x="20" y="6" width="2" height="2" class="pf-accent-red"/>
+      <rect x="22" y="6" width="2" height="2" class="pf-accent-red"/>
+      <rect x="24" y="6" width="2" height="2" class="pf-ink"/>
+      <rect x="0" y="8" width="2" height="2" class="pf-ink"/>
+      <rect x="2" y="8" width="2" height="2" class="pf-accent-red"/>
+      <rect x="4" y="8" width="2" height="2" class="pf-accent-red"/>
+      <rect x="6" y="8" width="2" height="2" class="pf-cloud"/>
+      <rect x="8" y="8" width="2" height="2" class="pf-accent-red"/>
+      <rect x="10" y="8" width="2" height="2" class="pf-accent-red"/>
+      <rect x="12" y="8" width="2" height="2" class="pf-accent-red"/>
+      <rect x="14" y="8" width="2" height="2" class="pf-accent-red"/>
+      <rect x="16" y="8" width="2" height="2" class="pf-accent-red"/>
+      <rect x="18" y="8" width="2" height="2" class="pf-accent-red"/>
+      <rect x="20" y="8" width="2" height="2" class="pf-accent-red"/>
+      <rect x="22" y="8" width="2" height="2" class="pf-accent-red"/>
+      <rect x="24" y="8" width="2" height="2" class="pf-ink"/>
+      <rect x="0" y="10" width="2" height="2" class="pf-ink"/>
+      <rect x="2" y="10" width="2" height="2" class="pf-accent-red"/>
+      <rect x="4" y="10" width="2" height="2" class="pf-accent-red"/>
+      <rect x="6" y="10" width="2" height="2" class="pf-accent-red"/>
+      <rect x="8" y="10" width="2" height="2" class="pf-accent-red"/>
+      <rect x="10" y="10" width="2" height="2" class="pf-accent-red"/>
+      <rect x="12" y="10" width="2" height="2" class="pf-accent-red"/>
+      <rect x="14" y="10" width="2" height="2" class="pf-accent-red"/>
+      <rect x="16" y="10" width="2" height="2" class="pf-accent-red"/>
+      <rect x="18" y="10" width="2" height="2" class="pf-accent-red"/>
+      <rect x="20" y="10" width="2" height="2" class="pf-accent-red"/>
+      <rect x="22" y="10" width="2" height="2" class="pf-accent-red"/>
+      <rect x="24" y="10" width="2" height="2" class="pf-ink"/>
+      <rect x="2" y="12" width="2" height="2" class="pf-ink"/>
+      <rect x="4" y="12" width="2" height="2" class="pf-accent-red"/>
+      <rect x="6" y="12" width="2" height="2" class="pf-accent-red"/>
+      <rect x="8" y="12" width="2" height="2" class="pf-accent-red"/>
+      <rect x="10" y="12" width="2" height="2" class="pf-accent-red"/>
+      <rect x="12" y="12" width="2" height="2" class="pf-accent-red"/>
+      <rect x="14" y="12" width="2" height="2" class="pf-accent-red"/>
+      <rect x="16" y="12" width="2" height="2" class="pf-accent-red"/>
+      <rect x="18" y="12" width="2" height="2" class="pf-accent-red"/>
+      <rect x="20" y="12" width="2" height="2" class="pf-accent-red"/>
+      <rect x="22" y="12" width="2" height="2" class="pf-ink"/>
+      <rect x="4" y="14" width="2" height="2" class="pf-ink"/>
+      <rect x="6" y="14" width="2" height="2" class="pf-accent-red"/>
+      <rect x="8" y="14" width="2" height="2" class="pf-accent-red"/>
+      <rect x="10" y="14" width="2" height="2" class="pf-accent-red"/>
+      <rect x="12" y="14" width="2" height="2" class="pf-accent-red"/>
+      <rect x="14" y="14" width="2" height="2" class="pf-accent-red"/>
+      <rect x="16" y="14" width="2" height="2" class="pf-accent-red"/>
+      <rect x="18" y="14" width="2" height="2" class="pf-accent-red"/>
+      <rect x="20" y="14" width="2" height="2" class="pf-ink"/>
+      <rect x="6" y="16" width="2" height="2" class="pf-ink"/>
+      <rect x="8" y="16" width="2" height="2" class="pf-accent-red"/>
+      <rect x="10" y="16" width="2" height="2" class="pf-accent-red"/>
+      <rect x="12" y="16" width="2" height="2" class="pf-accent-red"/>
+      <rect x="14" y="16" width="2" height="2" class="pf-accent-red"/>
+      <rect x="16" y="16" width="2" height="2" class="pf-accent-red"/>
+      <rect x="18" y="16" width="2" height="2" class="pf-ink"/>
+      <rect x="8" y="18" width="2" height="2" class="pf-ink"/>
+      <rect x="10" y="18" width="2" height="2" class="pf-accent-red"/>
+      <rect x="12" y="18" width="2" height="2" class="pf-accent-red"/>
+      <rect x="14" y="18" width="2" height="2" class="pf-accent-red"/>
+      <rect x="16" y="18" width="2" height="2" class="pf-ink"/>
+      <rect x="10" y="20" width="2" height="2" class="pf-ink"/>
+      <rect x="12" y="20" width="2" height="2" class="pf-accent-red"/>
+      <rect x="14" y="20" width="2" height="2" class="pf-ink"/>
+      <rect x="12" y="22" width="2" height="2" class="pf-ink"/>
+    </g>
+
+    <g id="i-sword">
+      <rect x="20" y="0" width="2" height="2" class="pf-ink"/>
+      <rect x="22" y="0" width="2" height="2" class="pf-ink"/>
+      <rect x="18" y="2" width="2" height="2" class="pf-ink"/>
+      <rect x="20" y="2" width="2" height="2" class="pf-steel-hi"/>
+      <rect x="22" y="2" width="2" height="2" class="pf-steel"/>
+      <rect x="24" y="2" width="2" height="2" class="pf-ink"/>
+      <rect x="16" y="4" width="2" height="2" class="pf-ink"/>
+      <rect x="18" y="4" width="2" height="2" class="pf-steel-hi"/>
+      <rect x="20" y="4" width="2" height="2" class="pf-steel"/>
+      <rect x="22" y="4" width="2" height="2" class="pf-ink"/>
+      <rect x="14" y="6" width="2" height="2" class="pf-ink"/>
+      <rect x="16" y="6" width="2" height="2" class="pf-steel-hi"/>
+      <rect x="18" y="6" width="2" height="2" class="pf-steel"/>
+      <rect x="20" y="6" width="2" height="2" class="pf-ink"/>
+      <rect x="12" y="8" width="2" height="2" class="pf-ink"/>
+      <rect x="14" y="8" width="2" height="2" class="pf-steel-hi"/>
+      <rect x="16" y="8" width="2" height="2" class="pf-steel"/>
+      <rect x="18" y="8" width="2" height="2" class="pf-ink"/>
+      <rect x="10" y="10" width="2" height="2" class="pf-ink"/>
+      <rect x="12" y="10" width="2" height="2" class="pf-steel-hi"/>
+      <rect x="14" y="10" width="2" height="2" class="pf-steel"/>
+      <rect x="16" y="10" width="2" height="2" class="pf-ink"/>
+      <rect x="8" y="12" width="2" height="2" class="pf-ink"/>
+      <rect x="10" y="12" width="2" height="2" class="pf-steel-hi"/>
+      <rect x="12" y="12" width="2" height="2" class="pf-steel"/>
+      <rect x="14" y="12" width="2" height="2" class="pf-ink"/>
+      <rect x="6" y="14" width="2" height="2" class="pf-ink"/>
+      <rect x="8" y="14" width="2" height="2" class="pf-steel-hi"/>
+      <rect x="10" y="14" width="2" height="2" class="pf-steel"/>
+      <rect x="12" y="14" width="2" height="2" class="pf-ink"/>
+      <rect x="4" y="16" width="2" height="2" class="pf-ink"/>
+      <rect x="6" y="16" width="2" height="2" class="pf-accent-yellow"/>
+      <rect x="8" y="16" width="2" height="2" class="pf-steel"/>
+      <rect x="10" y="16" width="2" height="2" class="pf-ink"/>
+      <rect x="2" y="18" width="2" height="2" class="pf-ink"/>
+      <rect x="4" y="18" width="2" height="2" class="pf-accent-yellow"/>
+      <rect x="6" y="18" width="2" height="2" class="pf-accent-yellow"/>
+      <rect x="8" y="18" width="2" height="2" class="pf-steel"/>
+      <rect x="10" y="18" width="2" height="2" class="pf-ink"/>
+      <rect x="0" y="20" width="2" height="2" class="pf-ink"/>
+      <rect x="2" y="20" width="2" height="2" class="pf-accent-yellow"/>
+      <rect x="4" y="20" width="2" height="2" class="pf-accent-yellow"/>
+      <rect x="6" y="20" width="2" height="2" class="pf-ink-muted"/>
+      <rect x="8" y="20" width="2" height="2" class="pf-ink"/>
+      <rect x="2" y="22" width="2" height="2" class="pf-ink"/>
+      <rect x="4" y="22" width="2" height="2" class="pf-ink-muted"/>
+      <rect x="6" y="22" width="2" height="2" class="pf-ink"/>
+      <rect x="0" y="24" width="2" height="2" class="pf-ink"/>
+      <rect x="2" y="24" width="2" height="2" class="pf-ink-muted"/>
+    </g>
+
+    <g id="i-leaf">
+      <rect x="9" y="0" width="3" height="3" class="pf-accent-green"/>
+      <rect x="12" y="0" width="3" height="3" class="pf-accent-green"/>
+      <rect x="6" y="3" width="3" height="3" class="pf-accent-green"/>
+      <rect x="9" y="3" width="3" height="3" class="pf-accent-green"/>
+      <rect x="12" y="3" width="3" height="3" class="pf-accent-green-lo"/>
+      <rect x="15" y="3" width="3" height="3" class="pf-accent-green"/>
+      <rect x="3" y="6" width="3" height="3" class="pf-accent-green"/>
+      <rect x="6" y="6" width="3" height="3" class="pf-accent-green"/>
+      <rect x="9" y="6" width="3" height="3" class="pf-accent-green-lo"/>
+      <rect x="12" y="6" width="3" height="3" class="pf-accent-green-lo"/>
+      <rect x="15" y="6" width="3" height="3" class="pf-accent-green"/>
+      <rect x="0" y="9" width="3" height="3" class="pf-accent-green"/>
+      <rect x="3" y="9" width="3" height="3" class="pf-accent-green"/>
+      <rect x="6" y="9" width="3" height="3" class="pf-accent-green-lo"/>
+      <rect x="9" y="9" width="3" height="3" class="pf-accent-green-lo"/>
+      <rect x="12" y="9" width="3" height="3" class="pf-accent-green"/>
+      <rect x="0" y="12" width="3" height="3" class="pf-accent-green"/>
+      <rect x="3" y="12" width="3" height="3" class="pf-accent-green-lo"/>
+      <rect x="6" y="12" width="3" height="3" class="pf-accent-green-lo"/>
+      <rect x="9" y="12" width="3" height="3" class="pf-accent-green"/>
+      <rect x="0" y="15" width="3" height="3" class="pf-accent-green"/>
+      <rect x="3" y="15" width="3" height="3" class="pf-accent-green"/>
+    </g>
+
+    <g id="i-cloud">
+      <rect x="6" y="0" width="2" height="2" class="pf-cloud"/>
+      <rect x="8" y="0" width="2" height="2" class="pf-cloud"/>
+      <rect x="10" y="0" width="2" height="2" class="pf-cloud"/>
+      <rect x="4" y="2" width="2" height="2" class="pf-cloud"/>
+      <rect x="6" y="2" width="2" height="2" class="pf-cloud"/>
+      <rect x="8" y="2" width="2" height="2" class="pf-cloud"/>
+      <rect x="10" y="2" width="2" height="2" class="pf-cloud"/>
+      <rect x="12" y="2" width="2" height="2" class="pf-cloud"/>
+      <rect x="2" y="4" width="2" height="2" class="pf-cloud"/>
+      <rect x="4" y="4" width="2" height="2" class="pf-cloud"/>
+      <rect x="6" y="4" width="2" height="2" class="pf-cloud"/>
+      <rect x="8" y="4" width="2" height="2" class="pf-cloud"/>
+      <rect x="10" y="4" width="2" height="2" class="pf-cloud"/>
+      <rect x="12" y="4" width="2" height="2" class="pf-cloud"/>
+      <rect x="0" y="6" width="2" height="2" class="pf-cloud"/>
+      <rect x="2" y="6" width="2" height="2" class="pf-cloud"/>
+      <rect x="4" y="6" width="2" height="2" class="pf-cloud"/>
+      <rect x="6" y="6" width="2" height="2" class="pf-cloud"/>
+      <rect x="8" y="6" width="2" height="2" class="pf-cloud"/>
+      <rect x="10" y="6" width="2" height="2" class="pf-cloud"/>
+      <rect x="12" y="6" width="2" height="2" class="pf-cloud"/>
+      <rect x="2" y="8" width="2" height="2" class="pf-cloud"/>
+      <rect x="4" y="8" width="2" height="2" class="pf-cloud"/>
+      <rect x="6" y="8" width="2" height="2" class="pf-cloud"/>
+      <rect x="8" y="8" width="2" height="2" class="pf-cloud"/>
+      <rect x="10" y="8" width="2" height="2" class="pf-cloud"/>
+    </g>
+
+    <g id="i-sprout">
+      <rect x="9" y="0" width="3" height="3" class="pf-accent-green"/>
+      <rect x="0" y="3" width="3" height="3" class="pf-accent-green"/>
+      <rect x="3" y="3" width="3" height="3" class="pf-accent-green-lo"/>
+      <rect x="9" y="3" width="3" height="3" class="pf-accent-green"/>
+      <rect x="3" y="6" width="3" height="3" class="pf-accent-green-lo"/>
+      <rect x="6" y="6" width="3" height="3" class="pf-accent-green-lo"/>
+      <rect x="9" y="6" width="3" height="3" class="pf-accent-green"/>
+      <rect x="6" y="9" width="3" height="3" class="pf-accent-green"/>
+      <rect x="6" y="12" width="3" height="3" class="pf-accent-green"/>
+      <rect x="6" y="15" width="3" height="3" class="pf-accent-green"/>
+    </g>
+
+    <g id="i-cookie">
+      <rect x="12" y="0" width="3" height="3" class="pf-cookie-1"/>
+      <rect x="15" y="0" width="3" height="3" class="pf-cookie-1"/>
+      <rect x="18" y="0" width="3" height="3" class="pf-cookie-1"/>
+      <rect x="21" y="0" width="3" height="3" class="pf-cookie-1"/>
+      <rect x="24" y="0" width="3" height="3" class="pf-cookie-1"/>
+      <rect x="27" y="0" width="3" height="3" class="pf-cookie-1"/>
+      <rect x="6" y="3" width="3" height="3" class="pf-cookie-1"/>
+      <rect x="9" y="3" width="3" height="3" class="pf-cookie-1"/>
+      <rect x="12" y="3" width="3" height="3" class="pf-cookie-2"/>
+      <rect x="15" y="3" width="3" height="3" class="pf-cookie-3"/>
+      <rect x="18" y="3" width="3" height="3" class="pf-cookie-4"/>
+      <rect x="21" y="3" width="3" height="3" class="pf-cookie-4"/>
+      <rect x="24" y="3" width="3" height="3" class="pf-cookie-4"/>
+      <rect x="27" y="3" width="3" height="3" class="pf-cookie-4"/>
+      <rect x="30" y="3" width="3" height="3" class="pf-cookie-1"/>
+      <rect x="33" y="3" width="3" height="3" class="pf-cookie-1"/>
+      <rect x="3" y="6" width="3" height="3" class="pf-cookie-1"/>
+      <rect x="6" y="6" width="3" height="3" class="pf-cookie-4"/>
+      <rect x="9" y="6" width="3" height="3" class="pf-cookie-5"/>
+      <rect x="12" y="6" width="3" height="3" class="pf-cookie-5"/>
+      <rect x="15" y="6" width="3" height="3" class="pf-cookie-5"/>
+      <rect x="18" y="6" width="3" height="3" class="pf-cookie-5"/>
+      <rect x="21" y="6" width="3" height="3" class="pf-cookie-5"/>
+      <rect x="24" y="6" width="3" height="3" class="pf-cookie-4"/>
+      <rect x="27" y="6" width="3" height="3" class="pf-cookie-5"/>
+      <rect x="30" y="6" width="3" height="3" class="pf-cookie-5"/>
+      <rect x="33" y="6" width="3" height="3" class="pf-cookie-4"/>
+      <rect x="36" y="6" width="3" height="3" class="pf-cookie-2"/>
+      <rect x="0" y="9" width="3" height="3" class="pf-cookie-1"/>
+      <rect x="3" y="9" width="3" height="3" class="pf-cookie-5"/>
+      <rect x="6" y="9" width="3" height="3" class="pf-cookie-5"/>
+      <rect x="9" y="9" width="3" height="3" class="pf-cookie-6"/>
+      <rect x="12" y="9" width="3" height="3" class="pf-cookie-5"/>
+      <rect x="15" y="9" width="3" height="3" class="pf-cookie-5"/>
+      <rect x="18" y="9" width="3" height="3" class="pf-cookie-2"/>
+      <rect x="21" y="9" width="3" height="3" class="pf-cookie-3"/>
+      <rect x="24" y="9" width="3" height="3" class="pf-cookie-5"/>
+      <rect x="27" y="9" width="3" height="3" class="pf-cookie-2"/>
+      <rect x="30" y="9" width="3" height="3" class="pf-cookie-5"/>
+      <rect x="33" y="9" width="3" height="3" class="pf-cookie-4"/>
+      <rect x="36" y="9" width="3" height="3" class="pf-cookie-5"/>
+      <rect x="39" y="9" width="3" height="3" class="pf-cookie-2"/>
+      <rect x="0" y="12" width="3" height="3" class="pf-cookie-4"/>
+      <rect x="3" y="12" width="3" height="3" class="pf-cookie-6"/>
+      <rect x="6" y="12" width="3" height="3" class="pf-cookie-4"/>
+      <rect x="9" y="12" width="3" height="3" class="pf-cookie-5"/>
+      <rect x="12" y="12" width="3" height="3" class="pf-cookie-4"/>
+      <rect x="15" y="12" width="3" height="3" class="pf-cookie-4"/>
+      <rect x="18" y="12" width="3" height="3" class="pf-cookie-6"/>
+      <rect x="21" y="12" width="3" height="3" class="pf-cookie-3"/>
+      <rect x="24" y="12" width="3" height="3" class="pf-cookie-5"/>
+      <rect x="27" y="12" width="3" height="3" class="pf-cookie-6"/>
+      <rect x="30" y="12" width="3" height="3" class="pf-cookie-4"/>
+      <rect x="33" y="12" width="3" height="3" class="pf-cookie-5"/>
+      <rect x="36" y="12" width="3" height="3" class="pf-cookie-5"/>
+      <rect x="39" y="12" width="3" height="3" class="pf-cookie-1"/>
+      <rect x="0" y="15" width="3" height="3" class="pf-cookie-4"/>
+      <rect x="3" y="15" width="3" height="3" class="pf-cookie-5"/>
+      <rect x="6" y="15" width="3" height="3" class="pf-cookie-5"/>
+      <rect x="9" y="15" width="3" height="3" class="pf-cookie-5"/>
+      <rect x="12" y="15" width="3" height="3" class="pf-cookie-2"/>
+      <rect x="15" y="15" width="3" height="3" class="pf-cookie-5"/>
+      <rect x="18" y="15" width="3" height="3" class="pf-cookie-4"/>
+      <rect x="21" y="15" width="3" height="3" class="pf-cookie-5"/>
+      <rect x="24" y="15" width="3" height="3" class="pf-cookie-5"/>
+      <rect x="27" y="15" width="3" height="3" class="pf-cookie-4"/>
+      <rect x="30" y="15" width="3" height="3" class="pf-cookie-5"/>
+      <rect x="33" y="15" width="3" height="3" class="pf-cookie-5"/>
+      <rect x="36" y="15" width="3" height="3" class="pf-cookie-2"/>
+      <rect x="39" y="15" width="3" height="3" class="pf-cookie-1"/>
+      <rect x="0" y="18" width="3" height="3" class="pf-cookie-4"/>
+      <rect x="3" y="18" width="3" height="3" class="pf-cookie-5"/>
+      <rect x="6" y="18" width="3" height="3" class="pf-cookie-4"/>
+      <rect x="9" y="18" width="3" height="3" class="pf-cookie-5"/>
+      <rect x="12" y="18" width="3" height="3" class="pf-cookie-3"/>
+      <rect x="15" y="18" width="3" height="3" class="pf-cookie-5"/>
+      <rect x="18" y="18" width="3" height="3" class="pf-cookie-5"/>
+      <rect x="21" y="18" width="3" height="3" class="pf-cookie-5"/>
+      <rect x="24" y="18" width="3" height="3" class="pf-cookie-4"/>
+      <rect x="27" y="18" width="3" height="3" class="pf-cookie-4"/>
+      <rect x="30" y="18" width="3" height="3" class="pf-cookie-5"/>
+      <rect x="33" y="18" width="3" height="3" class="pf-cookie-4"/>
+      <rect x="36" y="18" width="3" height="3" class="pf-cookie-5"/>
+      <rect x="39" y="18" width="3" height="3" class="pf-cookie-1"/>
+      <rect x="0" y="21" width="3" height="3" class="pf-cookie-2"/>
+      <rect x="3" y="21" width="3" height="3" class="pf-cookie-4"/>
+      <rect x="6" y="21" width="3" height="3" class="pf-cookie-5"/>
+      <rect x="9" y="21" width="3" height="3" class="pf-cookie-4"/>
+      <rect x="12" y="21" width="3" height="3" class="pf-cookie-5"/>
+      <rect x="15" y="21" width="3" height="3" class="pf-cookie-4"/>
+      <rect x="18" y="21" width="3" height="3" class="pf-cookie-2"/>
+      <rect x="21" y="21" width="3" height="3" class="pf-cookie-3"/>
+      <rect x="24" y="21" width="3" height="3" class="pf-cookie-5"/>
+      <rect x="27" y="21" width="3" height="3" class="pf-cookie-5"/>
+      <rect x="30" y="21" width="3" height="3" class="pf-cookie-6"/>
+      <rect x="33" y="21" width="3" height="3" class="pf-cookie-5"/>
+      <rect x="36" y="21" width="3" height="3" class="pf-cookie-4"/>
+      <rect x="39" y="21" width="3" height="3" class="pf-cookie-7"/>
+      <rect x="0" y="24" width="3" height="3" class="pf-cookie-7"/>
+      <rect x="3" y="24" width="3" height="3" class="pf-cookie-2"/>
+      <rect x="6" y="24" width="3" height="3" class="pf-cookie-4"/>
+      <rect x="9" y="24" width="3" height="3" class="pf-cookie-6"/>
+      <rect x="12" y="24" width="3" height="3" class="pf-cookie-5"/>
+      <rect x="15" y="24" width="3" height="3" class="pf-cookie-5"/>
+      <rect x="18" y="24" width="3" height="3" class="pf-cookie-5"/>
+      <rect x="21" y="24" width="3" height="3" class="pf-cookie-5"/>
+      <rect x="24" y="24" width="3" height="3" class="pf-cookie-5"/>
+      <rect x="27" y="24" width="3" height="3" class="pf-cookie-5"/>
+      <rect x="30" y="24" width="3" height="3" class="pf-cookie-5"/>
+      <rect x="33" y="24" width="3" height="3" class="pf-cookie-4"/>
+      <rect x="36" y="24" width="3" height="3" class="pf-cookie-2"/>
+      <rect x="39" y="24" width="3" height="3" class="pf-cookie-7"/>
+      <rect x="3" y="27" width="3" height="3" class="pf-cookie-7"/>
+      <rect x="6" y="27" width="3" height="3" class="pf-cookie-2"/>
+      <rect x="9" y="27" width="3" height="3" class="pf-cookie-1"/>
+      <rect x="12" y="27" width="3" height="3" class="pf-cookie-4"/>
+      <rect x="15" y="27" width="3" height="3" class="pf-cookie-4"/>
+      <rect x="18" y="27" width="3" height="3" class="pf-cookie-4"/>
+      <rect x="21" y="27" width="3" height="3" class="pf-cookie-4"/>
+      <rect x="24" y="27" width="3" height="3" class="pf-cookie-3"/>
+      <rect x="27" y="27" width="3" height="3" class="pf-cookie-4"/>
+      <rect x="30" y="27" width="3" height="3" class="pf-cookie-1"/>
+      <rect x="33" y="27" width="3" height="3" class="pf-cookie-2"/>
+      <rect x="36" y="27" width="3" height="3" class="pf-cookie-7"/>
+      <rect x="6" y="30" width="3" height="3" class="pf-cookie-7"/>
+      <rect x="9" y="30" width="3" height="3" class="pf-cookie-7"/>
+      <rect x="12" y="30" width="3" height="3" class="pf-cookie-2"/>
+      <rect x="15" y="30" width="3" height="3" class="pf-cookie-1"/>
+      <rect x="18" y="30" width="3" height="3" class="pf-cookie-1"/>
+      <rect x="21" y="30" width="3" height="3" class="pf-cookie-1"/>
+      <rect x="24" y="30" width="3" height="3" class="pf-cookie-1"/>
+      <rect x="27" y="30" width="3" height="3" class="pf-cookie-2"/>
+      <rect x="30" y="30" width="3" height="3" class="pf-cookie-7"/>
+      <rect x="33" y="30" width="3" height="3" class="pf-cookie-7"/>
+      <rect x="12" y="33" width="3" height="3" class="pf-cookie-7"/>
+      <rect x="15" y="33" width="3" height="3" class="pf-cookie-7"/>
+      <rect x="18" y="33" width="3" height="3" class="pf-cookie-7"/>
+      <rect x="21" y="33" width="3" height="3" class="pf-cookie-7"/>
+      <rect x="24" y="33" width="3" height="3" class="pf-cookie-7"/>
+      <rect x="27" y="33" width="3" height="3" class="pf-cookie-7"/>
+    </g>
+
+    <g id="i-cornflower">
+      <rect x="3" y="0" width="3" height="3" class="pf-cornflower-1"/>
+      <rect x="9" y="0" width="3" height="3" class="pf-cornflower-1"/>
+      <rect x="12" y="0" width="3" height="3" class="pf-cornflower-2"/>
+      <rect x="15" y="0" width="3" height="3" class="pf-cornflower-3"/>
+      <rect x="0" y="3" width="3" height="3" class="pf-cornflower-2"/>
+      <rect x="3" y="3" width="3" height="3" class="pf-cornflower-1"/>
+      <rect x="6" y="3" width="3" height="3" class="pf-cornflower-1"/>
+      <rect x="9" y="3" width="3" height="3" class="pf-cornflower-2"/>
+      <rect x="12" y="3" width="3" height="3" class="pf-cornflower-3"/>
+      <rect x="15" y="3" width="3" height="3" class="pf-cornflower-2"/>
+      <rect x="18" y="3" width="3" height="3" class="pf-cornflower-2"/>
+      <rect x="3" y="6" width="3" height="3" class="pf-cornflower-3"/>
+      <rect x="6" y="6" width="3" height="3" class="pf-cornflower-4"/>
+      <rect x="9" y="6" width="3" height="3" class="pf-cornflower-4"/>
+      <rect x="12" y="6" width="3" height="3" class="pf-cornflower-5"/>
+      <rect x="15" y="6" width="3" height="3" class="pf-cornflower-2"/>
+      <rect x="18" y="6" width="3" height="3" class="pf-cornflower-4"/>
+      <rect x="9" y="9" width="3" height="3" class="pf-cornflower-6"/>
+      <rect x="12" y="9" width="3" height="3" class="pf-cornflower-7"/>
+      <rect x="9" y="12" width="3" height="3" class="pf-cornflower-8"/>
+      <rect x="12" y="12" width="3" height="3" class="pf-cornflower-8"/>
+      <rect x="12" y="15" width="3" height="3" class="pf-cornflower-6"/>
+      <rect x="0" y="18" width="3" height="3" class="pf-cornflower-8"/>
+      <rect x="12" y="18" width="3" height="3" class="pf-cornflower-8"/>
+      <rect x="3" y="21" width="3" height="3" class="pf-cornflower-8"/>
+      <rect x="12" y="21" width="3" height="3" class="pf-cornflower-9"/>
+      <rect x="3" y="24" width="3" height="3" class="pf-cornflower-a"/>
+      <rect x="6" y="24" width="3" height="3" class="pf-cornflower-8"/>
+      <rect x="12" y="24" width="3" height="3" class="pf-cornflower-9"/>
+      <rect x="6" y="27" width="3" height="3" class="pf-cornflower-a"/>
+      <rect x="9" y="27" width="3" height="3" class="pf-cornflower-8"/>
+      <rect x="12" y="27" width="3" height="3" class="pf-cornflower-9"/>
+      <rect x="9" y="30" width="3" height="3" class="pf-cornflower-6"/>
+      <rect x="12" y="30" width="3" height="3" class="pf-cornflower-9"/>
+      <rect x="12" y="33" width="3" height="3" class="pf-cornflower-6"/>
+    </g>
+
+    <g id="i-dandelion">
+      <rect x="6" y="0" width="3" height="3" class="pf-dandelion-1"/>
+      <rect x="9" y="0" width="3" height="3" class="pf-dandelion-1"/>
+      <rect x="3" y="3" width="3" height="3" class="pf-dandelion-1"/>
+      <rect x="6" y="3" width="3" height="3" class="pf-dandelion-2"/>
+      <rect x="9" y="3" width="3" height="3" class="pf-dandelion-3"/>
+      <rect x="12" y="3" width="3" height="3" class="pf-dandelion-1"/>
+      <rect x="0" y="6" width="3" height="3" class="pf-dandelion-1"/>
+      <rect x="3" y="6" width="3" height="3" class="pf-dandelion-3"/>
+      <rect x="6" y="6" width="3" height="3" class="pf-dandelion-1"/>
+      <rect x="9" y="6" width="3" height="3" class="pf-dandelion-4"/>
+      <rect x="12" y="6" width="3" height="3" class="pf-dandelion-2"/>
+      <rect x="15" y="6" width="3" height="3" class="pf-dandelion-1"/>
+      <rect x="3" y="9" width="3" height="3" class="pf-dandelion-1"/>
+      <rect x="6" y="9" width="3" height="3" class="pf-dandelion-4"/>
+      <rect x="9" y="9" width="3" height="3" class="pf-dandelion-2"/>
+      <rect x="12" y="9" width="3" height="3" class="pf-dandelion-1"/>
+      <rect x="6" y="12" width="3" height="3" class="pf-dandelion-5"/>
+      <rect x="9" y="12" width="3" height="3" class="pf-dandelion-5"/>
+      <rect x="0" y="15" width="3" height="3" class="pf-dandelion-5"/>
+      <rect x="3" y="15" width="3" height="3" class="pf-dandelion-6"/>
+      <rect x="6" y="15" width="3" height="3" class="pf-dandelion-7"/>
+      <rect x="9" y="15" width="3" height="3" class="pf-dandelion-6"/>
+      <rect x="3" y="18" width="3" height="3" class="pf-dandelion-5"/>
+      <rect x="6" y="18" width="3" height="3" class="pf-dandelion-7"/>
+      <rect x="9" y="18" width="3" height="3" class="pf-dandelion-6"/>
+      <rect x="12" y="18" width="3" height="3" class="pf-dandelion-6"/>
+      <rect x="15" y="18" width="3" height="3" class="pf-dandelion-5"/>
+      <rect x="6" y="21" width="3" height="3" class="pf-dandelion-7"/>
+      <rect x="9" y="21" width="3" height="3" class="pf-dandelion-5"/>
+      <rect x="12" y="21" width="3" height="3" class="pf-dandelion-5"/>
+      <rect x="6" y="24" width="3" height="3" class="pf-dandelion-6"/>
+      <rect x="9" y="24" width="3" height="3" class="pf-dandelion-5"/>
+    </g>
+
+    <g id="i-diamond">
+      <rect x="12" y="0" width="3" height="3" class="pf-diamond-1"/>
+      <rect x="15" y="0" width="3" height="3" class="pf-diamond-1"/>
+      <rect x="18" y="0" width="3" height="3" class="pf-diamond-1"/>
+      <rect x="21" y="0" width="3" height="3" class="pf-diamond-1"/>
+      <rect x="9" y="3" width="3" height="3" class="pf-diamond-1"/>
+      <rect x="12" y="3" width="3" height="3" class="pf-diamond-2"/>
+      <rect x="15" y="3" width="3" height="3" class="pf-diamond-2"/>
+      <rect x="18" y="3" width="3" height="3" class="pf-diamond-2"/>
+      <rect x="21" y="3" width="3" height="3" class="pf-diamond-3"/>
+      <rect x="24" y="3" width="3" height="3" class="pf-diamond-1"/>
+      <rect x="6" y="6" width="3" height="3" class="pf-diamond-1"/>
+      <rect x="9" y="6" width="3" height="3" class="pf-diamond-2"/>
+      <rect x="12" y="6" width="3" height="3" class="pf-diamond-4"/>
+      <rect x="15" y="6" width="3" height="3" class="pf-diamond-4"/>
+      <rect x="18" y="6" width="3" height="3" class="pf-diamond-5"/>
+      <rect x="21" y="6" width="3" height="3" class="pf-diamond-3"/>
+      <rect x="24" y="6" width="3" height="3" class="pf-diamond-6"/>
+      <rect x="27" y="6" width="3" height="3" class="pf-diamond-7"/>
+      <rect x="3" y="9" width="3" height="3" class="pf-diamond-1"/>
+      <rect x="6" y="9" width="3" height="3" class="pf-diamond-2"/>
+      <rect x="9" y="9" width="3" height="3" class="pf-diamond-4"/>
+      <rect x="12" y="9" width="3" height="3" class="pf-diamond-5"/>
+      <rect x="15" y="9" width="3" height="3" class="pf-diamond-5"/>
+      <rect x="18" y="9" width="3" height="3" class="pf-diamond-3"/>
+      <rect x="21" y="9" width="3" height="3" class="pf-diamond-5"/>
+      <rect x="24" y="9" width="3" height="3" class="pf-diamond-4"/>
+      <rect x="27" y="9" width="3" height="3" class="pf-diamond-6"/>
+      <rect x="30" y="9" width="3" height="3" class="pf-diamond-7"/>
+      <rect x="3" y="12" width="3" height="3" class="pf-diamond-1"/>
+      <rect x="6" y="12" width="3" height="3" class="pf-diamond-2"/>
+      <rect x="9" y="12" width="3" height="3" class="pf-diamond-4"/>
+      <rect x="12" y="12" width="3" height="3" class="pf-diamond-2"/>
+      <rect x="15" y="12" width="3" height="3" class="pf-diamond-3"/>
+      <rect x="18" y="12" width="3" height="3" class="pf-diamond-2"/>
+      <rect x="21" y="12" width="3" height="3" class="pf-diamond-3"/>
+      <rect x="24" y="12" width="3" height="3" class="pf-diamond-4"/>
+      <rect x="27" y="12" width="3" height="3" class="pf-diamond-4"/>
+      <rect x="30" y="12" width="3" height="3" class="pf-diamond-7"/>
+      <rect x="0" y="15" width="3" height="3" class="pf-diamond-1"/>
+      <rect x="3" y="15" width="3" height="3" class="pf-diamond-2"/>
+      <rect x="6" y="15" width="3" height="3" class="pf-diamond-4"/>
+      <rect x="9" y="15" width="3" height="3" class="pf-diamond-2"/>
+      <rect x="12" y="15" width="3" height="3" class="pf-diamond-4"/>
+      <rect x="15" y="15" width="3" height="3" class="pf-diamond-4"/>
+      <rect x="18" y="15" width="3" height="3" class="pf-diamond-5"/>
+      <rect x="21" y="15" width="3" height="3" class="pf-diamond-5"/>
+      <rect x="24" y="15" width="3" height="3" class="pf-diamond-8"/>
+      <rect x="27" y="15" width="3" height="3" class="pf-diamond-6"/>
+      <rect x="30" y="15" width="3" height="3" class="pf-diamond-8"/>
+      <rect x="33" y="15" width="3" height="3" class="pf-diamond-7"/>
+      <rect x="0" y="18" width="3" height="3" class="pf-diamond-1"/>
+      <rect x="3" y="18" width="3" height="3" class="pf-diamond-2"/>
+      <rect x="6" y="18" width="3" height="3" class="pf-diamond-4"/>
+      <rect x="9" y="18" width="3" height="3" class="pf-diamond-3"/>
+      <rect x="12" y="18" width="3" height="3" class="pf-diamond-4"/>
+      <rect x="15" y="18" width="3" height="3" class="pf-diamond-5"/>
+      <rect x="18" y="18" width="3" height="3" class="pf-diamond-5"/>
+      <rect x="21" y="18" width="3" height="3" class="pf-diamond-5"/>
+      <rect x="24" y="18" width="3" height="3" class="pf-diamond-9"/>
+      <rect x="27" y="18" width="3" height="3" class="pf-diamond-6"/>
+      <rect x="30" y="18" width="3" height="3" class="pf-diamond-8"/>
+      <rect x="33" y="18" width="3" height="3" class="pf-diamond-7"/>
+      <rect x="0" y="21" width="3" height="3" class="pf-diamond-1"/>
+      <rect x="3" y="21" width="3" height="3" class="pf-diamond-2"/>
+      <rect x="6" y="21" width="3" height="3" class="pf-diamond-2"/>
+      <rect x="9" y="21" width="3" height="3" class="pf-diamond-6"/>
+      <rect x="12" y="21" width="3" height="3" class="pf-diamond-5"/>
+      <rect x="15" y="21" width="3" height="3" class="pf-diamond-5"/>
+      <rect x="18" y="21" width="3" height="3" class="pf-diamond-5"/>
+      <rect x="21" y="21" width="3" height="3" class="pf-diamond-4"/>
+      <rect x="24" y="21" width="3" height="3" class="pf-diamond-9"/>
+      <rect x="27" y="21" width="3" height="3" class="pf-diamond-8"/>
+      <rect x="30" y="21" width="3" height="3" class="pf-diamond-8"/>
+      <rect x="33" y="21" width="3" height="3" class="pf-diamond-7"/>
+      <rect x="0" y="24" width="3" height="3" class="pf-diamond-1"/>
+      <rect x="3" y="24" width="3" height="3" class="pf-diamond-3"/>
+      <rect x="6" y="24" width="3" height="3" class="pf-diamond-4"/>
+      <rect x="9" y="24" width="3" height="3" class="pf-diamond-4"/>
+      <rect x="12" y="24" width="3" height="3" class="pf-diamond-8"/>
+      <rect x="15" y="24" width="3" height="3" class="pf-diamond-8"/>
+      <rect x="18" y="24" width="3" height="3" class="pf-diamond-8"/>
+      <rect x="21" y="24" width="3" height="3" class="pf-diamond-8"/>
+      <rect x="24" y="24" width="3" height="3" class="pf-diamond-6"/>
+      <rect x="27" y="24" width="3" height="3" class="pf-diamond-6"/>
+      <rect x="30" y="24" width="3" height="3" class="pf-diamond-9"/>
+      <rect x="33" y="24" width="3" height="3" class="pf-diamond-7"/>
+      <rect x="3" y="27" width="3" height="3" class="pf-diamond-7"/>
+      <rect x="6" y="27" width="3" height="3" class="pf-diamond-4"/>
+      <rect x="9" y="27" width="3" height="3" class="pf-diamond-8"/>
+      <rect x="12" y="27" width="3" height="3" class="pf-diamond-6"/>
+      <rect x="15" y="27" width="3" height="3" class="pf-diamond-6"/>
+      <rect x="18" y="27" width="3" height="3" class="pf-diamond-6"/>
+      <rect x="21" y="27" width="3" height="3" class="pf-diamond-6"/>
+      <rect x="24" y="27" width="3" height="3" class="pf-diamond-8"/>
+      <rect x="27" y="27" width="3" height="3" class="pf-diamond-6"/>
+      <rect x="30" y="27" width="3" height="3" class="pf-diamond-7"/>
+      <rect x="3" y="30" width="3" height="3" class="pf-diamond-7"/>
+      <rect x="6" y="30" width="3" height="3" class="pf-diamond-a"/>
+      <rect x="9" y="30" width="3" height="3" class="pf-diamond-8"/>
+      <rect x="12" y="30" width="3" height="3" class="pf-diamond-6"/>
+      <rect x="15" y="30" width="3" height="3" class="pf-diamond-6"/>
+      <rect x="18" y="30" width="3" height="3" class="pf-diamond-6"/>
+      <rect x="21" y="30" width="3" height="3" class="pf-diamond-6"/>
+      <rect x="24" y="30" width="3" height="3" class="pf-diamond-8"/>
+      <rect x="27" y="30" width="3" height="3" class="pf-diamond-5"/>
+      <rect x="30" y="30" width="3" height="3" class="pf-diamond-7"/>
+      <rect x="6" y="33" width="3" height="3" class="pf-diamond-7"/>
+      <rect x="9" y="33" width="3" height="3" class="pf-diamond-9"/>
+      <rect x="12" y="33" width="3" height="3" class="pf-diamond-4"/>
+      <rect x="15" y="33" width="3" height="3" class="pf-diamond-4"/>
+      <rect x="18" y="33" width="3" height="3" class="pf-diamond-5"/>
+      <rect x="21" y="33" width="3" height="3" class="pf-diamond-5"/>
+      <rect x="24" y="33" width="3" height="3" class="pf-diamond-6"/>
+      <rect x="27" y="33" width="3" height="3" class="pf-diamond-7"/>
+      <rect x="9" y="36" width="3" height="3" class="pf-diamond-7"/>
+      <rect x="12" y="36" width="3" height="3" class="pf-diamond-7"/>
+      <rect x="15" y="36" width="3" height="3" class="pf-diamond-7"/>
+      <rect x="18" y="36" width="3" height="3" class="pf-diamond-7"/>
+      <rect x="21" y="36" width="3" height="3" class="pf-diamond-7"/>
+      <rect x="24" y="36" width="3" height="3" class="pf-diamond-7"/>
+    </g>
+
+    <g id="i-diamond-sword">
+      <rect x="39" y="0" width="3" height="3" class="pf-diamond-sword-1"/>
+      <rect x="42" y="0" width="3" height="3" class="pf-diamond-sword-1"/>
+      <rect x="45" y="0" width="3" height="3" class="pf-diamond-sword-1"/>
+      <rect x="36" y="3" width="3" height="3" class="pf-diamond-sword-1"/>
+      <rect x="39" y="3" width="3" height="3" class="pf-diamond-sword-2"/>
+      <rect x="42" y="3" width="3" height="3" class="pf-diamond-sword-2"/>
+      <rect x="45" y="3" width="3" height="3" class="pf-diamond-sword-3"/>
+      <rect x="33" y="6" width="3" height="3" class="pf-diamond-sword-1"/>
+      <rect x="36" y="6" width="3" height="3" class="pf-diamond-sword-2"/>
+      <rect x="39" y="6" width="3" height="3" class="pf-diamond-sword-4"/>
+      <rect x="42" y="6" width="3" height="3" class="pf-diamond-sword-2"/>
+      <rect x="45" y="6" width="3" height="3" class="pf-diamond-sword-3"/>
+      <rect x="30" y="9" width="3" height="3" class="pf-diamond-sword-1"/>
+      <rect x="33" y="9" width="3" height="3" class="pf-diamond-sword-2"/>
+      <rect x="36" y="9" width="3" height="3" class="pf-diamond-sword-4"/>
+      <rect x="39" y="9" width="3" height="3" class="pf-diamond-sword-2"/>
+      <rect x="42" y="9" width="3" height="3" class="pf-diamond-sword-3"/>
+      <rect x="27" y="12" width="3" height="3" class="pf-diamond-sword-1"/>
+      <rect x="30" y="12" width="3" height="3" class="pf-diamond-sword-2"/>
+      <rect x="33" y="12" width="3" height="3" class="pf-diamond-sword-4"/>
+      <rect x="36" y="12" width="3" height="3" class="pf-diamond-sword-5"/>
+      <rect x="39" y="12" width="3" height="3" class="pf-diamond-sword-3"/>
+      <rect x="24" y="15" width="3" height="3" class="pf-diamond-sword-1"/>
+      <rect x="27" y="15" width="3" height="3" class="pf-diamond-sword-2"/>
+      <rect x="30" y="15" width="3" height="3" class="pf-diamond-sword-4"/>
+      <rect x="33" y="15" width="3" height="3" class="pf-diamond-sword-5"/>
+      <rect x="36" y="15" width="3" height="3" class="pf-diamond-sword-3"/>
+      <rect x="6" y="18" width="3" height="3" class="pf-diamond-sword-1"/>
+      <rect x="9" y="18" width="3" height="3" class="pf-diamond-sword-1"/>
+      <rect x="21" y="18" width="3" height="3" class="pf-diamond-sword-1"/>
+      <rect x="24" y="18" width="3" height="3" class="pf-diamond-sword-5"/>
+      <rect x="27" y="18" width="3" height="3" class="pf-diamond-sword-4"/>
+      <rect x="30" y="18" width="3" height="3" class="pf-diamond-sword-5"/>
+      <rect x="33" y="18" width="3" height="3" class="pf-diamond-sword-3"/>
+      <rect x="6" y="21" width="3" height="3" class="pf-diamond-sword-1"/>
+      <rect x="9" y="21" width="3" height="3" class="pf-diamond-sword-6"/>
+      <rect x="12" y="21" width="3" height="3" class="pf-diamond-sword-1"/>
+      <rect x="18" y="21" width="3" height="3" class="pf-diamond-sword-1"/>
+      <rect x="21" y="21" width="3" height="3" class="pf-diamond-sword-5"/>
+      <rect x="24" y="21" width="3" height="3" class="pf-diamond-sword-4"/>
+      <rect x="27" y="21" width="3" height="3" class="pf-diamond-sword-5"/>
+      <rect x="30" y="21" width="3" height="3" class="pf-diamond-sword-3"/>
+      <rect x="9" y="24" width="3" height="3" class="pf-diamond-sword-1"/>
+      <rect x="12" y="24" width="3" height="3" class="pf-diamond-sword-7"/>
+      <rect x="15" y="24" width="3" height="3" class="pf-diamond-sword-3"/>
+      <rect x="18" y="24" width="3" height="3" class="pf-diamond-sword-5"/>
+      <rect x="21" y="24" width="3" height="3" class="pf-diamond-sword-7"/>
+      <rect x="24" y="24" width="3" height="3" class="pf-diamond-sword-5"/>
+      <rect x="27" y="24" width="3" height="3" class="pf-diamond-sword-3"/>
+      <rect x="9" y="27" width="3" height="3" class="pf-diamond-sword-1"/>
+      <rect x="12" y="27" width="3" height="3" class="pf-diamond-sword-7"/>
+      <rect x="15" y="27" width="3" height="3" class="pf-diamond-sword-7"/>
+      <rect x="18" y="27" width="3" height="3" class="pf-diamond-sword-6"/>
+      <rect x="21" y="27" width="3" height="3" class="pf-diamond-sword-5"/>
+      <rect x="24" y="27" width="3" height="3" class="pf-diamond-sword-3"/>
+      <rect x="12" y="30" width="3" height="3" class="pf-diamond-sword-1"/>
+      <rect x="15" y="30" width="3" height="3" class="pf-diamond-sword-6"/>
+      <rect x="18" y="30" width="3" height="3" class="pf-diamond-sword-1"/>
+      <rect x="21" y="30" width="3" height="3" class="pf-diamond-sword-3"/>
+      <rect x="9" y="33" width="3" height="3" class="pf-diamond-sword-8"/>
+      <rect x="12" y="33" width="3" height="3" class="pf-diamond-sword-9"/>
+      <rect x="15" y="33" width="3" height="3" class="pf-diamond-sword-3"/>
+      <rect x="18" y="33" width="3" height="3" class="pf-diamond-sword-1"/>
+      <rect x="21" y="33" width="3" height="3" class="pf-diamond-sword-1"/>
+      <rect x="24" y="33" width="3" height="3" class="pf-diamond-sword-3"/>
+      <rect x="6" y="36" width="3" height="3" class="pf-diamond-sword-8"/>
+      <rect x="9" y="36" width="3" height="3" class="pf-diamond-sword-a"/>
+      <rect x="12" y="36" width="3" height="3" class="pf-diamond-sword-b"/>
+      <rect x="18" y="36" width="3" height="3" class="pf-diamond-sword-3"/>
+      <rect x="21" y="36" width="3" height="3" class="pf-diamond-sword-3"/>
+      <rect x="24" y="36" width="3" height="3" class="pf-diamond-sword-1"/>
+      <rect x="27" y="36" width="3" height="3" class="pf-diamond-sword-3"/>
+      <rect x="0" y="39" width="3" height="3" class="pf-diamond-sword-1"/>
+      <rect x="3" y="39" width="3" height="3" class="pf-diamond-sword-1"/>
+      <rect x="6" y="39" width="3" height="3" class="pf-diamond-sword-9"/>
+      <rect x="9" y="39" width="3" height="3" class="pf-diamond-sword-b"/>
+      <rect x="24" y="39" width="3" height="3" class="pf-diamond-sword-3"/>
+      <rect x="27" y="39" width="3" height="3" class="pf-diamond-sword-3"/>
+      <rect x="0" y="42" width="3" height="3" class="pf-diamond-sword-1"/>
+      <rect x="3" y="42" width="3" height="3" class="pf-diamond-sword-6"/>
+      <rect x="6" y="42" width="3" height="3" class="pf-diamond-sword-3"/>
+      <rect x="0" y="45" width="3" height="3" class="pf-diamond-sword-3"/>
+      <rect x="3" y="45" width="3" height="3" class="pf-diamond-sword-3"/>
+      <rect x="6" y="45" width="3" height="3" class="pf-diamond-sword-3"/>
+    </g>
+
+    <g id="i-emerald">
+      <rect x="9" y="0" width="3" height="3" class="pf-emerald-1"/>
+      <rect x="12" y="0" width="3" height="3" class="pf-emerald-1"/>
+      <rect x="15" y="0" width="3" height="3" class="pf-emerald-1"/>
+      <rect x="18" y="0" width="3" height="3" class="pf-emerald-1"/>
+      <rect x="6" y="3" width="3" height="3" class="pf-emerald-1"/>
+      <rect x="9" y="3" width="3" height="3" class="pf-emerald-2"/>
+      <rect x="12" y="3" width="3" height="3" class="pf-emerald-3"/>
+      <rect x="15" y="3" width="3" height="3" class="pf-emerald-3"/>
+      <rect x="18" y="3" width="3" height="3" class="pf-emerald-4"/>
+      <rect x="21" y="3" width="3" height="3" class="pf-emerald-1"/>
+      <rect x="3" y="6" width="3" height="3" class="pf-emerald-1"/>
+      <rect x="6" y="6" width="3" height="3" class="pf-emerald-2"/>
+      <rect x="9" y="6" width="3" height="3" class="pf-emerald-5"/>
+      <rect x="12" y="6" width="3" height="3" class="pf-emerald-3"/>
+      <rect x="15" y="6" width="3" height="3" class="pf-emerald-3"/>
+      <rect x="18" y="6" width="3" height="3" class="pf-emerald-6"/>
+      <rect x="21" y="6" width="3" height="3" class="pf-emerald-4"/>
+      <rect x="24" y="6" width="3" height="3" class="pf-emerald-7"/>
+      <rect x="0" y="9" width="3" height="3" class="pf-emerald-1"/>
+      <rect x="3" y="9" width="3" height="3" class="pf-emerald-2"/>
+      <rect x="6" y="9" width="3" height="3" class="pf-emerald-5"/>
+      <rect x="9" y="9" width="3" height="3" class="pf-emerald-5"/>
+      <rect x="12" y="9" width="3" height="3" class="pf-emerald-3"/>
+      <rect x="15" y="9" width="3" height="3" class="pf-emerald-3"/>
+      <rect x="18" y="9" width="3" height="3" class="pf-emerald-6"/>
+      <rect x="21" y="9" width="3" height="3" class="pf-emerald-6"/>
+      <rect x="24" y="9" width="3" height="3" class="pf-emerald-4"/>
+      <rect x="27" y="9" width="3" height="3" class="pf-emerald-7"/>
+      <rect x="0" y="12" width="3" height="3" class="pf-emerald-1"/>
+      <rect x="3" y="12" width="3" height="3" class="pf-emerald-5"/>
+      <rect x="6" y="12" width="3" height="3" class="pf-emerald-4"/>
+      <rect x="9" y="12" width="3" height="3" class="pf-emerald-4"/>
+      <rect x="12" y="12" width="3" height="3" class="pf-emerald-5"/>
+      <rect x="15" y="12" width="3" height="3" class="pf-emerald-5"/>
+      <rect x="18" y="12" width="3" height="3" class="pf-emerald-6"/>
+      <rect x="21" y="12" width="3" height="3" class="pf-emerald-8"/>
+      <rect x="24" y="12" width="3" height="3" class="pf-emerald-6"/>
+      <rect x="27" y="12" width="3" height="3" class="pf-emerald-7"/>
+      <rect x="0" y="15" width="3" height="3" class="pf-emerald-1"/>
+      <rect x="3" y="15" width="3" height="3" class="pf-emerald-5"/>
+      <rect x="6" y="15" width="3" height="3" class="pf-emerald-4"/>
+      <rect x="9" y="15" width="3" height="3" class="pf-emerald-4"/>
+      <rect x="12" y="15" width="3" height="3" class="pf-emerald-5"/>
+      <rect x="15" y="15" width="3" height="3" class="pf-emerald-9"/>
+      <rect x="18" y="15" width="3" height="3" class="pf-emerald-6"/>
+      <rect x="21" y="15" width="3" height="3" class="pf-emerald-a"/>
+      <rect x="24" y="15" width="3" height="3" class="pf-emerald-6"/>
+      <rect x="27" y="15" width="3" height="3" class="pf-emerald-7"/>
+      <rect x="0" y="18" width="3" height="3" class="pf-emerald-1"/>
+      <rect x="3" y="18" width="3" height="3" class="pf-emerald-5"/>
+      <rect x="6" y="18" width="3" height="3" class="pf-emerald-4"/>
+      <rect x="9" y="18" width="3" height="3" class="pf-emerald-4"/>
+      <rect x="12" y="18" width="3" height="3" class="pf-emerald-5"/>
+      <rect x="15" y="18" width="3" height="3" class="pf-emerald-9"/>
+      <rect x="18" y="18" width="3" height="3" class="pf-emerald-6"/>
+      <rect x="21" y="18" width="3" height="3" class="pf-emerald-a"/>
+      <rect x="24" y="18" width="3" height="3" class="pf-emerald-6"/>
+      <rect x="27" y="18" width="3" height="3" class="pf-emerald-7"/>
+      <rect x="0" y="21" width="3" height="3" class="pf-emerald-1"/>
+      <rect x="3" y="21" width="3" height="3" class="pf-emerald-5"/>
+      <rect x="6" y="21" width="3" height="3" class="pf-emerald-4"/>
+      <rect x="9" y="21" width="3" height="3" class="pf-emerald-4"/>
+      <rect x="12" y="21" width="3" height="3" class="pf-emerald-9"/>
+      <rect x="15" y="21" width="3" height="3" class="pf-emerald-9"/>
+      <rect x="18" y="21" width="3" height="3" class="pf-emerald-6"/>
+      <rect x="21" y="21" width="3" height="3" class="pf-emerald-a"/>
+      <rect x="24" y="21" width="3" height="3" class="pf-emerald-4"/>
+      <rect x="27" y="21" width="3" height="3" class="pf-emerald-7"/>
+      <rect x="0" y="24" width="3" height="3" class="pf-emerald-1"/>
+      <rect x="3" y="24" width="3" height="3" class="pf-emerald-5"/>
+      <rect x="6" y="24" width="3" height="3" class="pf-emerald-4"/>
+      <rect x="9" y="24" width="3" height="3" class="pf-emerald-4"/>
+      <rect x="12" y="24" width="3" height="3" class="pf-emerald-9"/>
+      <rect x="15" y="24" width="3" height="3" class="pf-emerald-3"/>
+      <rect x="18" y="24" width="3" height="3" class="pf-emerald-a"/>
+      <rect x="21" y="24" width="3" height="3" class="pf-emerald-8"/>
+      <rect x="24" y="24" width="3" height="3" class="pf-emerald-4"/>
+      <rect x="27" y="24" width="3" height="3" class="pf-emerald-7"/>
+      <rect x="3" y="27" width="3" height="3" class="pf-emerald-1"/>
+      <rect x="6" y="27" width="3" height="3" class="pf-emerald-6"/>
+      <rect x="9" y="27" width="3" height="3" class="pf-emerald-8"/>
+      <rect x="12" y="27" width="3" height="3" class="pf-emerald-a"/>
+      <rect x="15" y="27" width="3" height="3" class="pf-emerald-a"/>
+      <rect x="18" y="27" width="3" height="3" class="pf-emerald-8"/>
+      <rect x="21" y="27" width="3" height="3" class="pf-emerald-9"/>
+      <rect x="24" y="27" width="3" height="3" class="pf-emerald-7"/>
+      <rect x="6" y="30" width="3" height="3" class="pf-emerald-1"/>
+      <rect x="9" y="30" width="3" height="3" class="pf-emerald-6"/>
+      <rect x="12" y="30" width="3" height="3" class="pf-emerald-8"/>
+      <rect x="15" y="30" width="3" height="3" class="pf-emerald-a"/>
+      <rect x="18" y="30" width="3" height="3" class="pf-emerald-4"/>
+      <rect x="21" y="30" width="3" height="3" class="pf-emerald-7"/>
+      <rect x="9" y="33" width="3" height="3" class="pf-emerald-7"/>
+      <rect x="12" y="33" width="3" height="3" class="pf-emerald-7"/>
+      <rect x="15" y="33" width="3" height="3" class="pf-emerald-7"/>
+      <rect x="18" y="33" width="3" height="3" class="pf-emerald-7"/>
+    </g>
+
+    <g id="i-orange-tulip">
+      <rect x="3" y="0" width="3" height="3" class="pf-orange-tulip-1"/>
+      <rect x="9" y="0" width="3" height="3" class="pf-orange-tulip-1"/>
+      <rect x="3" y="3" width="3" height="3" class="pf-orange-tulip-1"/>
+      <rect x="6" y="3" width="3" height="3" class="pf-orange-tulip-1"/>
+      <rect x="9" y="3" width="3" height="3" class="pf-orange-tulip-2"/>
+      <rect x="3" y="6" width="3" height="3" class="pf-orange-tulip-3"/>
+      <rect x="6" y="6" width="3" height="3" class="pf-orange-tulip-2"/>
+      <rect x="9" y="6" width="3" height="3" class="pf-orange-tulip-3"/>
+      <rect x="6" y="9" width="3" height="3" class="pf-orange-tulip-3"/>
+      <rect x="6" y="12" width="3" height="3" class="pf-orange-tulip-4"/>
+      <rect x="12" y="12" width="3" height="3" class="pf-orange-tulip-5"/>
+      <rect x="0" y="15" width="3" height="3" class="pf-orange-tulip-5"/>
+      <rect x="6" y="15" width="3" height="3" class="pf-orange-tulip-4"/>
+      <rect x="9" y="15" width="3" height="3" class="pf-orange-tulip-6"/>
+      <rect x="12" y="15" width="3" height="3" class="pf-orange-tulip-4"/>
+      <rect x="0" y="18" width="3" height="3" class="pf-orange-tulip-7"/>
+      <rect x="6" y="18" width="3" height="3" class="pf-orange-tulip-5"/>
+      <rect x="9" y="18" width="3" height="3" class="pf-orange-tulip-7"/>
+      <rect x="12" y="18" width="3" height="3" class="pf-orange-tulip-4"/>
+      <rect x="0" y="21" width="3" height="3" class="pf-orange-tulip-7"/>
+      <rect x="3" y="21" width="3" height="3" class="pf-orange-tulip-5"/>
+      <rect x="6" y="21" width="3" height="3" class="pf-orange-tulip-4"/>
+      <rect x="9" y="21" width="3" height="3" class="pf-orange-tulip-7"/>
+      <rect x="12" y="21" width="3" height="3" class="pf-orange-tulip-4"/>
+      <rect x="0" y="24" width="3" height="3" class="pf-orange-tulip-6"/>
+      <rect x="3" y="24" width="3" height="3" class="pf-orange-tulip-7"/>
+      <rect x="6" y="24" width="3" height="3" class="pf-orange-tulip-4"/>
+      <rect x="9" y="24" width="3" height="3" class="pf-orange-tulip-7"/>
+      <rect x="12" y="24" width="3" height="3" class="pf-orange-tulip-4"/>
+      <rect x="0" y="27" width="3" height="3" class="pf-orange-tulip-5"/>
+      <rect x="3" y="27" width="3" height="3" class="pf-orange-tulip-7"/>
+      <rect x="6" y="27" width="3" height="3" class="pf-orange-tulip-5"/>
+      <rect x="9" y="27" width="3" height="3" class="pf-orange-tulip-6"/>
+      <rect x="12" y="27" width="3" height="3" class="pf-orange-tulip-4"/>
+      <rect x="3" y="30" width="3" height="3" class="pf-orange-tulip-5"/>
+      <rect x="6" y="30" width="3" height="3" class="pf-orange-tulip-7"/>
+      <rect x="9" y="30" width="3" height="3" class="pf-orange-tulip-4"/>
+      <rect x="3" y="33" width="3" height="3" class="pf-orange-tulip-5"/>
+      <rect x="6" y="33" width="3" height="3" class="pf-orange-tulip-7"/>
+      <rect x="9" y="33" width="3" height="3" class="pf-orange-tulip-4"/>
+      <rect x="6" y="36" width="3" height="3" class="pf-orange-tulip-4"/>
+    </g>
+
+    <g id="i-oxeye-daisy">
+      <rect x="6" y="0" width="3" height="3" class="pf-oxeye-daisy-1"/>
+      <rect x="9" y="0" width="3" height="3" class="pf-oxeye-daisy-2"/>
+      <rect x="12" y="0" width="3" height="3" class="pf-oxeye-daisy-3"/>
+      <rect x="3" y="3" width="3" height="3" class="pf-oxeye-daisy-3"/>
+      <rect x="6" y="3" width="3" height="3" class="pf-oxeye-daisy-3"/>
+      <rect x="9" y="3" width="3" height="3" class="pf-oxeye-daisy-2"/>
+      <rect x="12" y="3" width="3" height="3" class="pf-oxeye-daisy-2"/>
+      <rect x="15" y="3" width="3" height="3" class="pf-oxeye-daisy-3"/>
+      <rect x="0" y="6" width="3" height="3" class="pf-oxeye-daisy-3"/>
+      <rect x="3" y="6" width="3" height="3" class="pf-oxeye-daisy-2"/>
+      <rect x="6" y="6" width="3" height="3" class="pf-oxeye-daisy-4"/>
+      <rect x="9" y="6" width="3" height="3" class="pf-oxeye-daisy-5"/>
+      <rect x="12" y="6" width="3" height="3" class="pf-oxeye-daisy-5"/>
+      <rect x="15" y="6" width="3" height="3" class="pf-oxeye-daisy-3"/>
+      <rect x="18" y="6" width="3" height="3" class="pf-oxeye-daisy-1"/>
+      <rect x="0" y="9" width="3" height="3" class="pf-oxeye-daisy-2"/>
+      <rect x="3" y="9" width="3" height="3" class="pf-oxeye-daisy-2"/>
+      <rect x="6" y="9" width="3" height="3" class="pf-oxeye-daisy-5"/>
+      <rect x="9" y="9" width="3" height="3" class="pf-oxeye-daisy-6"/>
+      <rect x="12" y="9" width="3" height="3" class="pf-oxeye-daisy-4"/>
+      <rect x="15" y="9" width="3" height="3" class="pf-oxeye-daisy-2"/>
+      <rect x="18" y="9" width="3" height="3" class="pf-oxeye-daisy-2"/>
+      <rect x="0" y="12" width="3" height="3" class="pf-oxeye-daisy-1"/>
+      <rect x="3" y="12" width="3" height="3" class="pf-oxeye-daisy-3"/>
+      <rect x="6" y="12" width="3" height="3" class="pf-oxeye-daisy-4"/>
+      <rect x="9" y="12" width="3" height="3" class="pf-oxeye-daisy-5"/>
+      <rect x="12" y="12" width="3" height="3" class="pf-oxeye-daisy-7"/>
+      <rect x="15" y="12" width="3" height="3" class="pf-oxeye-daisy-2"/>
+      <rect x="18" y="12" width="3" height="3" class="pf-oxeye-daisy-3"/>
+      <rect x="3" y="15" width="3" height="3" class="pf-oxeye-daisy-3"/>
+      <rect x="6" y="15" width="3" height="3" class="pf-oxeye-daisy-2"/>
+      <rect x="9" y="15" width="3" height="3" class="pf-oxeye-daisy-2"/>
+      <rect x="12" y="15" width="3" height="3" class="pf-oxeye-daisy-3"/>
+      <rect x="15" y="15" width="3" height="3" class="pf-oxeye-daisy-3"/>
+      <rect x="6" y="18" width="3" height="3" class="pf-oxeye-daisy-3"/>
+      <rect x="9" y="18" width="3" height="3" class="pf-oxeye-daisy-2"/>
+      <rect x="12" y="18" width="3" height="3" class="pf-oxeye-daisy-1"/>
+      <rect x="9" y="21" width="3" height="3" class="pf-oxeye-daisy-8"/>
+      <rect x="12" y="21" width="3" height="3" class="pf-oxeye-daisy-9"/>
+      <rect x="9" y="24" width="3" height="3" class="pf-oxeye-daisy-a"/>
+      <rect x="3" y="27" width="3" height="3" class="pf-oxeye-daisy-9"/>
+      <rect x="6" y="27" width="3" height="3" class="pf-oxeye-daisy-8"/>
+      <rect x="9" y="27" width="3" height="3" class="pf-oxeye-daisy-a"/>
+      <rect x="6" y="30" width="3" height="3" class="pf-oxeye-daisy-9"/>
+      <rect x="9" y="30" width="3" height="3" class="pf-oxeye-daisy-a"/>
+      <rect x="15" y="30" width="3" height="3" class="pf-oxeye-daisy-9"/>
+      <rect x="9" y="33" width="3" height="3" class="pf-oxeye-daisy-a"/>
+      <rect x="12" y="33" width="3" height="3" class="pf-oxeye-daisy-9"/>
+      <rect x="9" y="36" width="3" height="3" class="pf-oxeye-daisy-8"/>
+      <rect x="12" y="36" width="3" height="3" class="pf-oxeye-daisy-9"/>
+      <rect x="9" y="39" width="3" height="3" class="pf-oxeye-daisy-9"/>
+    </g>
+
+    <g id="i-poppy">
+      <rect x="9" y="0" width="3" height="3" class="pf-poppy-1"/>
+      <rect x="12" y="0" width="3" height="3" class="pf-poppy-2"/>
+      <rect x="3" y="3" width="3" height="3" class="pf-poppy-1"/>
+      <rect x="6" y="3" width="3" height="3" class="pf-poppy-3"/>
+      <rect x="9" y="3" width="3" height="3" class="pf-poppy-2"/>
+      <rect x="12" y="3" width="3" height="3" class="pf-poppy-1"/>
+      <rect x="15" y="3" width="3" height="3" class="pf-poppy-3"/>
+      <rect x="0" y="6" width="3" height="3" class="pf-poppy-1"/>
+      <rect x="3" y="6" width="3" height="3" class="pf-poppy-3"/>
+      <rect x="6" y="6" width="3" height="3" class="pf-poppy-4"/>
+      <rect x="9" y="6" width="3" height="3" class="pf-poppy-3"/>
+      <rect x="12" y="6" width="3" height="3" class="pf-poppy-1"/>
+      <rect x="15" y="6" width="3" height="3" class="pf-poppy-2"/>
+      <rect x="0" y="9" width="3" height="3" class="pf-poppy-1"/>
+      <rect x="3" y="9" width="3" height="3" class="pf-poppy-1"/>
+      <rect x="6" y="9" width="3" height="3" class="pf-poppy-1"/>
+      <rect x="9" y="9" width="3" height="3" class="pf-poppy-1"/>
+      <rect x="12" y="9" width="3" height="3" class="pf-poppy-2"/>
+      <rect x="3" y="12" width="3" height="3" class="pf-poppy-3"/>
+      <rect x="6" y="12" width="3" height="3" class="pf-poppy-5"/>
+      <rect x="9" y="12" width="3" height="3" class="pf-poppy-6"/>
+      <rect x="9" y="15" width="3" height="3" class="pf-poppy-7"/>
+      <rect x="9" y="18" width="3" height="3" class="pf-poppy-7"/>
+      <rect x="9" y="21" width="3" height="3" class="pf-poppy-7"/>
+      <rect x="0" y="24" width="3" height="3" class="pf-poppy-5"/>
+      <rect x="3" y="24" width="3" height="3" class="pf-poppy-6"/>
+      <rect x="9" y="24" width="3" height="3" class="pf-poppy-8"/>
+      <rect x="15" y="24" width="3" height="3" class="pf-poppy-6"/>
+      <rect x="18" y="24" width="3" height="3" class="pf-poppy-6"/>
+      <rect x="3" y="27" width="3" height="3" class="pf-poppy-5"/>
+      <rect x="9" y="27" width="3" height="3" class="pf-poppy-5"/>
+      <rect x="12" y="27" width="3" height="3" class="pf-poppy-5"/>
+      <rect x="6" y="30" width="3" height="3" class="pf-poppy-5"/>
+      <rect x="9" y="30" width="3" height="3" class="pf-poppy-6"/>
+      <rect x="12" y="30" width="3" height="3" class="pf-poppy-5"/>
+    </g>
+
+    <g id="i-potion-water">
+      <rect x="9" y="0" width="3" height="3" class="pf-potion-water-1"/>
+      <rect x="12" y="0" width="3" height="3" class="pf-potion-water-1"/>
+      <rect x="15" y="0" width="3" height="3" class="pf-potion-water-2"/>
+      <rect x="6" y="3" width="3" height="3" class="pf-potion-water-3"/>
+      <rect x="9" y="3" width="3" height="3" class="pf-potion-water-4"/>
+      <rect x="12" y="3" width="3" height="3" class="pf-potion-water-4"/>
+      <rect x="15" y="3" width="3" height="3" class="pf-potion-water-4"/>
+      <rect x="18" y="3" width="3" height="3" class="pf-potion-water-5"/>
+      <rect x="6" y="6" width="3" height="3" class="pf-potion-water-5"/>
+      <rect x="9" y="6" width="3" height="3" class="pf-potion-water-2"/>
+      <rect x="12" y="6" width="3" height="3" class="pf-potion-water-2"/>
+      <rect x="15" y="6" width="3" height="3" class="pf-potion-water-6"/>
+      <rect x="18" y="6" width="3" height="3" class="pf-potion-water-5"/>
+      <rect x="9" y="9" width="3" height="3" class="pf-potion-water-5"/>
+      <rect x="15" y="9" width="3" height="3" class="pf-potion-water-7"/>
+      <rect x="9" y="12" width="3" height="3" class="pf-potion-water-5"/>
+      <rect x="15" y="12" width="3" height="3" class="pf-potion-water-7"/>
+      <rect x="6" y="15" width="3" height="3" class="pf-potion-water-3"/>
+      <rect x="18" y="15" width="3" height="3" class="pf-potion-water-7"/>
+      <rect x="3" y="18" width="3" height="3" class="pf-potion-water-3"/>
+      <rect x="6" y="18" width="3" height="3" class="pf-potion-water-8"/>
+      <rect x="9" y="18" width="3" height="3" class="pf-potion-water-5"/>
+      <rect x="12" y="18" width="3" height="3" class="pf-potion-water-9"/>
+      <rect x="15" y="18" width="3" height="3" class="pf-potion-water-9"/>
+      <rect x="18" y="18" width="3" height="3" class="pf-potion-water-a"/>
+      <rect x="21" y="18" width="3" height="3" class="pf-potion-water-7"/>
+      <rect x="0" y="21" width="3" height="3" class="pf-potion-water-3"/>
+      <rect x="3" y="21" width="3" height="3" class="pf-potion-water-a"/>
+      <rect x="6" y="21" width="3" height="3" class="pf-potion-water-5"/>
+      <rect x="9" y="21" width="3" height="3" class="pf-potion-water-8"/>
+      <rect x="12" y="21" width="3" height="3" class="pf-potion-water-b"/>
+      <rect x="15" y="21" width="3" height="3" class="pf-potion-water-b"/>
+      <rect x="18" y="21" width="3" height="3" class="pf-potion-water-9"/>
+      <rect x="21" y="21" width="3" height="3" class="pf-potion-water-a"/>
+      <rect x="24" y="21" width="3" height="3" class="pf-potion-water-7"/>
+      <rect x="0" y="24" width="3" height="3" class="pf-potion-water-3"/>
+      <rect x="3" y="24" width="3" height="3" class="pf-potion-water-9"/>
+      <rect x="6" y="24" width="3" height="3" class="pf-potion-water-5"/>
+      <rect x="9" y="24" width="3" height="3" class="pf-potion-water-8"/>
+      <rect x="12" y="24" width="3" height="3" class="pf-potion-water-c"/>
+      <rect x="15" y="24" width="3" height="3" class="pf-potion-water-b"/>
+      <rect x="18" y="24" width="3" height="3" class="pf-potion-water-b"/>
+      <rect x="21" y="24" width="3" height="3" class="pf-potion-water-9"/>
+      <rect x="24" y="24" width="3" height="3" class="pf-potion-water-7"/>
+      <rect x="0" y="27" width="3" height="3" class="pf-potion-water-5"/>
+      <rect x="3" y="27" width="3" height="3" class="pf-potion-water-9"/>
+      <rect x="6" y="27" width="3" height="3" class="pf-potion-water-b"/>
+      <rect x="9" y="27" width="3" height="3" class="pf-potion-water-b"/>
+      <rect x="12" y="27" width="3" height="3" class="pf-potion-water-d"/>
+      <rect x="15" y="27" width="3" height="3" class="pf-potion-water-b"/>
+      <rect x="18" y="27" width="3" height="3" class="pf-potion-water-e"/>
+      <rect x="21" y="27" width="3" height="3" class="pf-potion-water-f"/>
+      <rect x="24" y="27" width="3" height="3" class="pf-potion-water-7"/>
+      <rect x="0" y="30" width="3" height="3" class="pf-potion-water-7"/>
+      <rect x="3" y="30" width="3" height="3" class="pf-potion-water-a"/>
+      <rect x="6" y="30" width="3" height="3" class="pf-potion-water-9"/>
+      <rect x="9" y="30" width="3" height="3" class="pf-potion-water-b"/>
+      <rect x="12" y="30" width="3" height="3" class="pf-potion-water-f"/>
+      <rect x="15" y="30" width="3" height="3" class="pf-potion-water-9"/>
+      <rect x="18" y="30" width="3" height="3" class="pf-potion-water-e"/>
+      <rect x="21" y="30" width="3" height="3" class="pf-potion-water-a"/>
+      <rect x="24" y="30" width="3" height="3" class="pf-potion-water-7"/>
+      <rect x="3" y="33" width="3" height="3" class="pf-potion-water-7"/>
+      <rect x="6" y="33" width="3" height="3" class="pf-potion-water-a"/>
+      <rect x="9" y="33" width="3" height="3" class="pf-potion-water-9"/>
+      <rect x="12" y="33" width="3" height="3" class="pf-potion-water-9"/>
+      <rect x="15" y="33" width="3" height="3" class="pf-potion-water-e"/>
+      <rect x="18" y="33" width="3" height="3" class="pf-potion-water-a"/>
+      <rect x="21" y="33" width="3" height="3" class="pf-potion-water-7"/>
+      <rect x="6" y="36" width="3" height="3" class="pf-potion-water-7"/>
+      <rect x="9" y="36" width="3" height="3" class="pf-potion-water-7"/>
+      <rect x="12" y="36" width="3" height="3" class="pf-potion-water-7"/>
+      <rect x="15" y="36" width="3" height="3" class="pf-potion-water-7"/>
+      <rect x="18" y="36" width="3" height="3" class="pf-potion-water-7"/>
+    </g>
+  </defs>
+
+  <rect class="pf-canvas" x="0" y="0" width="800" height="366"/>
+    <use href="#i-bullet-dot" transform="translate(24,40) scale(2)" />
+    <text x="24" y="71" font-family="ui-monospace, monospace" font-size="10" class="pf-ink">bullet-dot</text>
+    <use href="#i-bullet-square" transform="translate(64,40) scale(2)" />
+    <text x="64" y="79" font-family="ui-monospace, monospace" font-size="10" class="pf-ink">bullet-square</text>
+    <use href="#i-bullet-diamond" transform="translate(112,40) scale(2)" />
+    <text x="112" y="79" font-family="ui-monospace, monospace" font-size="10" class="pf-ink">bullet-diamond</text>
+    <use href="#i-bullet-arrow" transform="translate(160,40) scale(2)" />
+    <text x="160" y="95" font-family="ui-monospace, monospace" font-size="10" class="pf-ink">bullet-arrow</text>
+    <use href="#i-star" transform="translate(208,40) scale(2)" />
+    <text x="208" y="95" font-family="ui-monospace, monospace" font-size="10" class="pf-ink">star</text>
+    <use href="#i-rocket" transform="translate(272,40) scale(2)" />
+    <text x="272" y="107" font-family="ui-monospace, monospace" font-size="10" class="pf-ink">rocket</text>
+    <use href="#i-sun" transform="translate(348,40) scale(2)" />
+    <text x="348" y="107" font-family="ui-monospace, monospace" font-size="10" class="pf-ink">sun</text>
+    <use href="#i-flower" transform="translate(424,40) scale(2)" />
+    <text x="424" y="107" font-family="ui-monospace, monospace" font-size="10" class="pf-ink">flower</text>
+    <use href="#i-heart" transform="translate(500,40) scale(2)" />
+    <text x="500" y="103" font-family="ui-monospace, monospace" font-size="10" class="pf-ink">heart</text>
+    <use href="#i-sword" transform="translate(576,40) scale(2)" />
+    <text x="576" y="107" font-family="ui-monospace, monospace" font-size="10" class="pf-ink">sword</text>
+    <use href="#i-leaf" transform="translate(652,40) scale(2)" />
+    <text x="652" y="91" font-family="ui-monospace, monospace" font-size="10" class="pf-ink">leaf</text>
+    <use href="#i-cloud" transform="translate(712,40) scale(2)" />
+    <text x="712" y="75" font-family="ui-monospace, monospace" font-size="10" class="pf-ink">cloud</text>
+    <use href="#i-sprout" transform="translate(24,126) scale(2)" />
+    <text x="24" y="177" font-family="ui-monospace, monospace" font-size="10" class="pf-ink">sprout</text>
+    <use href="#i-cookie" transform="translate(84,126) scale(2)" />
+    <text x="84" y="213" font-family="ui-monospace, monospace" font-size="10" class="pf-ink">cookie</text>
+    <use href="#i-cornflower" transform="translate(192,126) scale(2)" />
+    <text x="192" y="213" font-family="ui-monospace, monospace" font-size="10" class="pf-ink">cornflower</text>
+    <use href="#i-dandelion" transform="translate(258,126) scale(2)" />
+    <text x="258" y="195" font-family="ui-monospace, monospace" font-size="10" class="pf-ink">dandelion</text>
+    <use href="#i-diamond" transform="translate(318,126) scale(2)" />
+    <text x="318" y="219" font-family="ui-monospace, monospace" font-size="10" class="pf-ink">diamond</text>
+    <use href="#i-diamond-sword" transform="translate(414,126) scale(2)" />
+    <text x="414" y="237" font-family="ui-monospace, monospace" font-size="10" class="pf-ink">diamond-sword</text>
+    <use href="#i-emerald" transform="translate(534,126) scale(2)" />
+    <text x="534" y="213" font-family="ui-monospace, monospace" font-size="10" class="pf-ink">emerald</text>
+    <use href="#i-orange-tulip" transform="translate(618,126) scale(2)" />
+    <text x="618" y="219" font-family="ui-monospace, monospace" font-size="10" class="pf-ink">orange-tulip</text>
+    <use href="#i-oxeye-daisy" transform="translate(672,126) scale(2)" />
+    <text x="672" y="225" font-family="ui-monospace, monospace" font-size="10" class="pf-ink">oxeye-daisy</text>
+    <use href="#i-poppy" transform="translate(24,256) scale(2)" />
+    <text x="24" y="337" font-family="ui-monospace, monospace" font-size="10" class="pf-ink">poppy</text>
+    <use href="#i-potion-water" transform="translate(90,256) scale(2)" />
+    <text x="90" y="349" font-family="ui-monospace, monospace" font-size="10" class="pf-ink">potion-water</text>
+</svg>

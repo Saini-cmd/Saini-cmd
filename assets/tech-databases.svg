@@ -1,0 +1,282 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="105" viewBox="0 0 800 105"
+     style="--pf-duration: 12s;--pf-frame-outer: #3a2a14;--pf-frame-mid: #7a4a23;--pf-frame-hi: #a06832;--pf-frame-inner: #3a2a14;--pf-canvas: #f4e4bc;--pf-ink: #3d2818;--pf-ink-muted: #7a4a23;--pf-tile-face: #e6d3a4;--pf-tile-edge-hi: #7a4a23;--pf-tile-edge-lo: #3a2a14;--pf-accent-red: #d04a30;--pf-accent-green: #5fa847;--pf-accent-green-lo: #3e7a30;--pf-accent-yellow: #e8bc60;--pf-accent-gold-lo: #b88c2e;--pf-accent-blue: #4a90c8;--pf-accent-pink: #e07aa0;--pf-accent-pink-hi: #f6bcd2;--pf-steel: #b9c2cb;--pf-steel-hi: #f2f6fa;--pf-cloud: #f0eee0;">
+  <style>
+    :root { --pf-duration: 12s; --pf-frame-outer: #3a2a14; --pf-frame-mid: #7a4a23; --pf-frame-hi: #a06832; --pf-frame-inner: #3a2a14; --pf-canvas: #f4e4bc; --pf-ink: #3d2818; --pf-ink-muted: #7a4a23; --pf-tile-face: #e6d3a4; --pf-tile-edge-hi: #7a4a23; --pf-tile-edge-lo: #3a2a14; --pf-accent-red: #d04a30; --pf-accent-green: #5fa847; --pf-accent-green-lo: #3e7a30; --pf-accent-yellow: #e8bc60; --pf-accent-gold-lo: #b88c2e; --pf-accent-blue: #4a90c8; --pf-accent-pink: #e07aa0; --pf-accent-pink-hi: #f6bcd2; --pf-steel: #b9c2cb; --pf-steel-hi: #f2f6fa; --pf-cloud: #f0eee0; }
+
+    .pf-frame-outer { fill: var(--pf-frame-outer); }
+    .pf-frame-mid { fill: var(--pf-frame-mid); }
+    .pf-frame-hi { fill: var(--pf-frame-hi); }
+    .pf-frame-inner { fill: var(--pf-frame-inner); }
+    .pf-canvas { fill: var(--pf-canvas); }
+    .pf-ink { fill: var(--pf-ink); }
+    .pf-ink-muted { fill: var(--pf-ink-muted); }
+    .pf-tile-face { fill: var(--pf-tile-face); }
+    .pf-tile-edge-hi { fill: var(--pf-tile-edge-hi); }
+    .pf-tile-edge-lo { fill: var(--pf-tile-edge-lo); }
+    .pf-accent-red { fill: var(--pf-accent-red); }
+    .pf-accent-green { fill: var(--pf-accent-green); }
+    .pf-accent-green-lo { fill: var(--pf-accent-green-lo); }
+    .pf-accent-yellow { fill: var(--pf-accent-yellow); }
+    .pf-accent-gold-lo { fill: var(--pf-accent-gold-lo); }
+    .pf-accent-blue { fill: var(--pf-accent-blue); }
+    .pf-accent-pink { fill: var(--pf-accent-pink); }
+    .pf-accent-pink-hi { fill: var(--pf-accent-pink-hi); }
+    .pf-steel { fill: var(--pf-steel); }
+    .pf-steel-hi { fill: var(--pf-steel-hi); }
+    .pf-cloud { fill: var(--pf-cloud); }
+
+    .pf-tile { animation: pf-pop var(--pf-duration) ease-out infinite; }
+    .pf-icon { animation: none; }
+    .pf-underline { animation: pf-wipe-cycle 8.600s ease-in-out infinite; transform-origin: 36px center; }
+    .pf-step-0 { animation: pf-step-0 8.600s steps(1, end) infinite; }
+    .pf-step-1 { animation: pf-step-1 8.600s steps(1, end) infinite; }
+    .pf-step-2 { animation: pf-step-2 8.600s steps(1, end) infinite; }
+    .pf-step-3 { animation: pf-step-3 8.600s steps(1, end) infinite; }
+    .pf-step-4 { animation: pf-step-4 8.600s steps(1, end) infinite; }
+    .pf-step-5 { animation: pf-step-5 8.600s steps(1, end) infinite; }
+    .pf-step-6 { animation: pf-step-6 8.600s steps(1, end) infinite; }
+    .pf-step-7 { animation: pf-step-7 8.600s steps(1, end) infinite; }
+    .pf-step-8 { animation: pf-step-8 8.600s steps(1, end) infinite; }
+
+    @keyframes pf-pop {
+      0%, 6%   { opacity: 0; transform: translateY(-4px); }
+      18%, 88% { opacity: 1; transform: translateY(0); }
+      100%     { opacity: 0; transform: translateY(0); }
+    }
+    @keyframes pf-wipe-cycle {
+      0% { transform: scaleX(0); }
+      20.9302% { transform: scaleX(1); }
+      79.0698% { transform: scaleX(1); }
+      100% { transform: scaleX(0); }
+    }
+    @keyframes pf-step-0 {
+      0%, 0.0000% { opacity: 0; }
+      0.0010%, 97.6744% { opacity: 1; }
+      97.6754%, 100% { opacity: 0; }
+    }
+    @keyframes pf-step-1 {
+      0%, 2.3256% { opacity: 0; }
+      2.3266%, 95.3488% { opacity: 1; }
+      95.3498%, 100% { opacity: 0; }
+    }
+    @keyframes pf-step-2 {
+      0%, 4.6512% { opacity: 0; }
+      4.6522%, 93.0233% { opacity: 1; }
+      93.0243%, 100% { opacity: 0; }
+    }
+    @keyframes pf-step-3 {
+      0%, 6.9767% { opacity: 0; }
+      6.9777%, 90.6977% { opacity: 1; }
+      90.6987%, 100% { opacity: 0; }
+    }
+    @keyframes pf-step-4 {
+      0%, 9.3023% { opacity: 0; }
+      9.3033%, 88.3721% { opacity: 1; }
+      88.3731%, 100% { opacity: 0; }
+    }
+    @keyframes pf-step-5 {
+      0%, 11.6279% { opacity: 0; }
+      11.6289%, 86.0465% { opacity: 1; }
+      86.0475%, 100% { opacity: 0; }
+    }
+    @keyframes pf-step-6 {
+      0%, 13.9535% { opacity: 0; }
+      13.9545%, 83.7209% { opacity: 1; }
+      83.7219%, 100% { opacity: 0; }
+    }
+    @keyframes pf-step-7 {
+      0%, 16.2791% { opacity: 0; }
+      16.2801%, 81.3953% { opacity: 1; }
+      81.3963%, 100% { opacity: 0; }
+    }
+    @keyframes pf-step-8 {
+      0%, 18.6047% { opacity: 0; }
+      18.6057%, 79.0698% { opacity: 1; }
+      79.0708%, 100% { opacity: 0; }
+    }
+  </style>
+
+    <rect class="pf-frame-outer" x="0" y="0" width="800" height="105"/>
+    <rect class="pf-frame-mid" x="2" y="2" width="796" height="101"/>
+    <rect class="pf-frame-hi" x="2" y="2" width="796" height="1"/>
+    <rect class="pf-frame-hi" x="2" y="2" width="1" height="101"/>
+    <rect class="pf-frame-inner" x="6" y="6" width="788" height="93"/>
+    <rect class="pf-canvas" x="8" y="8" width="784" height="89"/>
+
+    <g class="pf-ink">
+      <g class="pf-step-0">
+          <rect x="36" y="32" width="4" height="4"/>
+          <rect x="40" y="32" width="4" height="4"/>
+          <rect x="44" y="32" width="4" height="4"/>
+          <rect x="48" y="32" width="4" height="4"/>
+          <rect x="36" y="36" width="4" height="4"/>
+          <rect x="52" y="36" width="4" height="4"/>
+          <rect x="36" y="40" width="4" height="4"/>
+          <rect x="52" y="40" width="4" height="4"/>
+          <rect x="36" y="44" width="4" height="4"/>
+          <rect x="52" y="44" width="4" height="4"/>
+          <rect x="36" y="48" width="4" height="4"/>
+          <rect x="52" y="48" width="4" height="4"/>
+          <rect x="36" y="52" width="4" height="4"/>
+          <rect x="52" y="52" width="4" height="4"/>
+          <rect x="36" y="56" width="4" height="4"/>
+          <rect x="40" y="56" width="4" height="4"/>
+          <rect x="44" y="56" width="4" height="4"/>
+          <rect x="48" y="56" width="4" height="4"/>
+      </g>
+      <g class="pf-step-1">
+          <rect x="64" y="32" width="4" height="4"/>
+          <rect x="68" y="32" width="4" height="4"/>
+          <rect x="72" y="32" width="4" height="4"/>
+          <rect x="60" y="36" width="4" height="4"/>
+          <rect x="76" y="36" width="4" height="4"/>
+          <rect x="60" y="40" width="4" height="4"/>
+          <rect x="76" y="40" width="4" height="4"/>
+          <rect x="60" y="44" width="4" height="4"/>
+          <rect x="64" y="44" width="4" height="4"/>
+          <rect x="68" y="44" width="4" height="4"/>
+          <rect x="72" y="44" width="4" height="4"/>
+          <rect x="76" y="44" width="4" height="4"/>
+          <rect x="60" y="48" width="4" height="4"/>
+          <rect x="76" y="48" width="4" height="4"/>
+          <rect x="60" y="52" width="4" height="4"/>
+          <rect x="76" y="52" width="4" height="4"/>
+          <rect x="60" y="56" width="4" height="4"/>
+          <rect x="76" y="56" width="4" height="4"/>
+      </g>
+      <g class="pf-step-2">
+          <rect x="84" y="32" width="4" height="4"/>
+          <rect x="88" y="32" width="4" height="4"/>
+          <rect x="92" y="32" width="4" height="4"/>
+          <rect x="96" y="32" width="4" height="4"/>
+          <rect x="100" y="32" width="4" height="4"/>
+          <rect x="92" y="36" width="4" height="4"/>
+          <rect x="92" y="40" width="4" height="4"/>
+          <rect x="92" y="44" width="4" height="4"/>
+          <rect x="92" y="48" width="4" height="4"/>
+          <rect x="92" y="52" width="4" height="4"/>
+          <rect x="92" y="56" width="4" height="4"/>
+      </g>
+      <g class="pf-step-3">
+          <rect x="112" y="32" width="4" height="4"/>
+          <rect x="116" y="32" width="4" height="4"/>
+          <rect x="120" y="32" width="4" height="4"/>
+          <rect x="108" y="36" width="4" height="4"/>
+          <rect x="124" y="36" width="4" height="4"/>
+          <rect x="108" y="40" width="4" height="4"/>
+          <rect x="124" y="40" width="4" height="4"/>
+          <rect x="108" y="44" width="4" height="4"/>
+          <rect x="112" y="44" width="4" height="4"/>
+          <rect x="116" y="44" width="4" height="4"/>
+          <rect x="120" y="44" width="4" height="4"/>
+          <rect x="124" y="44" width="4" height="4"/>
+          <rect x="108" y="48" width="4" height="4"/>
+          <rect x="124" y="48" width="4" height="4"/>
+          <rect x="108" y="52" width="4" height="4"/>
+          <rect x="124" y="52" width="4" height="4"/>
+          <rect x="108" y="56" width="4" height="4"/>
+          <rect x="124" y="56" width="4" height="4"/>
+      </g>
+      <g class="pf-step-4">
+          <rect x="132" y="32" width="4" height="4"/>
+          <rect x="136" y="32" width="4" height="4"/>
+          <rect x="140" y="32" width="4" height="4"/>
+          <rect x="144" y="32" width="4" height="4"/>
+          <rect x="132" y="36" width="4" height="4"/>
+          <rect x="148" y="36" width="4" height="4"/>
+          <rect x="132" y="40" width="4" height="4"/>
+          <rect x="148" y="40" width="4" height="4"/>
+          <rect x="132" y="44" width="4" height="4"/>
+          <rect x="136" y="44" width="4" height="4"/>
+          <rect x="140" y="44" width="4" height="4"/>
+          <rect x="144" y="44" width="4" height="4"/>
+          <rect x="132" y="48" width="4" height="4"/>
+          <rect x="148" y="48" width="4" height="4"/>
+          <rect x="132" y="52" width="4" height="4"/>
+          <rect x="148" y="52" width="4" height="4"/>
+          <rect x="132" y="56" width="4" height="4"/>
+          <rect x="136" y="56" width="4" height="4"/>
+          <rect x="140" y="56" width="4" height="4"/>
+          <rect x="144" y="56" width="4" height="4"/>
+      </g>
+      <g class="pf-step-5">
+          <rect x="160" y="32" width="4" height="4"/>
+          <rect x="164" y="32" width="4" height="4"/>
+          <rect x="168" y="32" width="4" height="4"/>
+          <rect x="156" y="36" width="4" height="4"/>
+          <rect x="172" y="36" width="4" height="4"/>
+          <rect x="156" y="40" width="4" height="4"/>
+          <rect x="172" y="40" width="4" height="4"/>
+          <rect x="156" y="44" width="4" height="4"/>
+          <rect x="160" y="44" width="4" height="4"/>
+          <rect x="164" y="44" width="4" height="4"/>
+          <rect x="168" y="44" width="4" height="4"/>
+          <rect x="172" y="44" width="4" height="4"/>
+          <rect x="156" y="48" width="4" height="4"/>
+          <rect x="172" y="48" width="4" height="4"/>
+          <rect x="156" y="52" width="4" height="4"/>
+          <rect x="172" y="52" width="4" height="4"/>
+          <rect x="156" y="56" width="4" height="4"/>
+          <rect x="172" y="56" width="4" height="4"/>
+      </g>
+      <g class="pf-step-6">
+          <rect x="184" y="32" width="4" height="4"/>
+          <rect x="188" y="32" width="4" height="4"/>
+          <rect x="192" y="32" width="4" height="4"/>
+          <rect x="180" y="36" width="4" height="4"/>
+          <rect x="196" y="36" width="4" height="4"/>
+          <rect x="180" y="40" width="4" height="4"/>
+          <rect x="184" y="44" width="4" height="4"/>
+          <rect x="188" y="44" width="4" height="4"/>
+          <rect x="192" y="44" width="4" height="4"/>
+          <rect x="196" y="48" width="4" height="4"/>
+          <rect x="180" y="52" width="4" height="4"/>
+          <rect x="196" y="52" width="4" height="4"/>
+          <rect x="184" y="56" width="4" height="4"/>
+          <rect x="188" y="56" width="4" height="4"/>
+          <rect x="192" y="56" width="4" height="4"/>
+      </g>
+      <g class="pf-step-7">
+          <rect x="204" y="32" width="4" height="4"/>
+          <rect x="208" y="32" width="4" height="4"/>
+          <rect x="212" y="32" width="4" height="4"/>
+          <rect x="216" y="32" width="4" height="4"/>
+          <rect x="220" y="32" width="4" height="4"/>
+          <rect x="204" y="36" width="4" height="4"/>
+          <rect x="204" y="40" width="4" height="4"/>
+          <rect x="204" y="44" width="4" height="4"/>
+          <rect x="208" y="44" width="4" height="4"/>
+          <rect x="212" y="44" width="4" height="4"/>
+          <rect x="216" y="44" width="4" height="4"/>
+          <rect x="204" y="48" width="4" height="4"/>
+          <rect x="204" y="52" width="4" height="4"/>
+          <rect x="204" y="56" width="4" height="4"/>
+          <rect x="208" y="56" width="4" height="4"/>
+          <rect x="212" y="56" width="4" height="4"/>
+          <rect x="216" y="56" width="4" height="4"/>
+          <rect x="220" y="56" width="4" height="4"/>
+      </g>
+      <g class="pf-step-8">
+          <rect x="232" y="32" width="4" height="4"/>
+          <rect x="236" y="32" width="4" height="4"/>
+          <rect x="240" y="32" width="4" height="4"/>
+          <rect x="228" y="36" width="4" height="4"/>
+          <rect x="244" y="36" width="4" height="4"/>
+          <rect x="228" y="40" width="4" height="4"/>
+          <rect x="232" y="44" width="4" height="4"/>
+          <rect x="236" y="44" width="4" height="4"/>
+          <rect x="240" y="44" width="4" height="4"/>
+          <rect x="244" y="48" width="4" height="4"/>
+          <rect x="228" y="52" width="4" height="4"/>
+          <rect x="244" y="52" width="4" height="4"/>
+          <rect x="232" y="56" width="4" height="4"/>
+          <rect x="236" y="56" width="4" height="4"/>
+          <rect x="240" y="56" width="4" height="4"/>
+      </g>
+    </g>
+
+    <g class="pf-underline">
+      <rect x="36" y="68" width="220" height="3"/>
+      <rect class="pf-frame-hi" x="36" y="68" width="220" height="1"/>
+    </g>
+</svg>

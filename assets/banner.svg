@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="800" height="100" viewBox="0 0 800 100"
+     style="
+       --pf-duration: 12s;
+
+       --pf-frame-outer:  #3a2a14;
+       --pf-frame-mid:    #7a4a23;
+       --pf-frame-hi:     #a06832;
+       --pf-frame-inner:  #3a2a14;
+       --pf-canvas:       #f4e4bc;
+
+       --pf-ink:          #3d2818;
+       --pf-ink-muted:    #7a4a23;
+
+       --pf-tile-face:    #e6d3a4;
+       --pf-tile-edge-hi: #7a4a23;
+       --pf-tile-edge-lo: #3a2a14;
+
+       --pf-accent-red:    #d04a30;
+       --pf-accent-green:  #5fa847;
+       --pf-accent-yellow: #e8bc60;
+       --pf-accent-blue:   #4a90c8;
+     ">
+
+  <style>
+    :root {
+      /* Fallback defaults, in case the inline style above is stripped */
+      --pf-duration: 12s;
+      --pf-frame-outer:  #3a2a14;
+      --pf-frame-mid:    #7a4a23;
+      --pf-frame-hi:     #a06832;
+      --pf-frame-inner:  #3a2a14;
+      --pf-canvas:       #f4e4bc;
+      --pf-ink:          #3d2818;
+      --pf-ink-muted:    #7a4a23;
+    }
+
+    .pf-frame-outer { fill: var(--pf-frame-outer); }
+    .pf-frame-mid   { fill: var(--pf-frame-mid); }
+    .pf-frame-hi    { fill: var(--pf-frame-hi); }
+    .pf-frame-inner { fill: var(--pf-frame-inner); }
+    .pf-canvas      { fill: var(--pf-canvas); }
+
+    .pf-ink         { fill: var(--pf-ink); }
+    .pf-underline   { fill: var(--pf-ink-muted); }
+
+    .pf-letter    { animation: pf-pop var(--pf-duration) ease-out infinite; }
+    .pf-letter-0  { animation-delay: calc(var(--pf-duration) * 0 * 0.008); }
+    .pf-letter-1  { animation-delay: calc(var(--pf-duration) * 1 * 0.008); }
+    .pf-letter-2  { animation-delay: calc(var(--pf-duration) * 2 * 0.008); }
+    .pf-counter   { animation: pf-pop var(--pf-duration) ease-out infinite; animation-delay: 0.60s; }
+    .pf-tile      { animation: pf-pop var(--pf-duration) ease-out infinite; }
+    .pf-underline { animation: pf-wipe var(--pf-duration) ease-out infinite; transform-origin: 36px center; }
+
+    .pf-tile-0 { animation-delay: 0.96s; }
+    .pf-tile-1 { animation-delay: 1.14s; }
+    .pf-tile-2 { animation-delay: 1.32s; }
+    .pf-tile-3 { animation-delay: 1.50s; }
+    .pf-tile-4 { animation-delay: 1.68s; }
+    .pf-tile-5 { animation-delay: 1.86s; }
+    .pf-tile-6 { animation-delay: 2.04s; }
+    .pf-tile-7 { animation-delay: 2.22s; }
+
+    @keyframes pf-pop {
+      0%, 6%   { opacity: 0; transform: translateY(-4px); }
+      18%, 88% { opacity: 1; transform: translateY(0); }
+      100%     { opacity: 0; transform: translateY(0); }
+    }
+    @keyframes pf-wipe {
+      0%, 10%  { transform: scaleX(0); }
+      28%, 88% { transform: scaleX(1); }
+      100%     { transform: scaleX(1); }
+    }
+  </style>
+
+  <defs>
+    <!-- Glyphs live here, drawn at local origin (0,0) on the 4px grid.
+         Define each id once; compose with <use href="#g-X" x=".." y="32"/>.
+         Fill is inherited from the parent .pf-ink group, so no fill here.
+
+    <g id="g-A"> ... </g>
+    <g id="g-B"> ... </g>
+    -->
+  </defs>
+
+  <!-- frame (height = H - 2y for every layer) -->
+  <rect class="pf-frame-outer" x="0" y="0" width="800" height="100"/>
+  <rect class="pf-frame-mid"   x="2" y="2" width="796" height="96"/>
+  <rect class="pf-frame-hi"    x="2" y="2" width="796" height="1"/>
+  <rect class="pf-frame-hi"    x="2" y="2" width="1"   height="96"/>
+  <rect class="pf-frame-inner" x="6" y="6" width="788" height="88"/>
+  <rect class="pf-canvas"      x="8" y="8" width="784" height="84"/>
+
+  <!-- HEADER: one group per letter, so they descend with a stagger -->
+  <g class="pf-ink">
+    <g class="pf-letter pf-letter-0">
+      <!-- <use href="#g-A" x="36" y="32"/> -->
+    </g>
+    <g class="pf-letter pf-letter-1">
+      <!-- <use href="#g-B" x="60" y="32"/> -->
+    </g>
+  </g>
+
+  <!-- counter (optional, right side) -->
+  <g class="pf-counter pf-ink-muted">
+    <!-- small pixel decoration -->
+  </g>
+
+  <!-- underline (left-anchored wipe) -->
+  <g class="pf-underline">
+    <rect x="36" y="68" width="212" height="3"/>
+    <rect class="pf-frame-hi" x="36" y="68" width="212" height="1"/>
+  </g>
+</svg>
