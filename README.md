@@ -18,17 +18,16 @@
 
 <img src="https://readme-profile-app.vercel.app/api/banner/skyline" width="100%" alt="Contribution Skyline">
 
+<img src="https://readme-profile-app.vercel.app/api/banner/thanks" width="100%" alt="Thanks for visiting, have a cookie">
+
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/cyprieng/github-breakout/main/example/light.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cyprieng/github-breakout/main/example/light.svg" />
   <img alt="Breakout Game" src="https://raw.githubusercontent.com/cyprieng/github-breakout/main/example/light.svg" />
 </picture>
 
 </div>
 
-## 💭 Wisdom, Compiled Randomly
 
-<img src="https://readme-profile-app.vercel.app/api/banner/quote" width="100%" alt="A Little Wisdom">
 
-<img src="https://readme-profile-app.vercel.app/api/banner/thanks" width="100%" alt="Thanks for visiting, have a cookie">
